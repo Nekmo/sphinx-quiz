@@ -7,17 +7,21 @@
   :target: https://github.com/Nekmo/sphinx-quiz/actions?query=workflow%3ATests
   :alt: Latest Tests CI build status
 
-.. image:: https://img.shields.io/pypi/v/sphinx-quiz.svg?style=flat-square
+.. image:: https://img.shields.io/pypi/v/sphinx-quiz?style=flat-square
   :target: https://pypi.org/project/sphinx-quiz/
   :alt: Latest PyPI version
 
-.. image:: https://img.shields.io/pypi/pyversions/sphinx-quiz.svg?style=flat-square
+.. image:: https://img.shields.io/pypi/pyversions/sphinx-quiz?style=flat-square
   :target: https://pypi.org/project/sphinx-quiz/
   :alt: Python versions
 
-.. image:: https://img.shields.io/codecov/c/github/Nekmo/sphinx-quiz/master.svg?style=flat-square
-  :target: https://codecov.io/github/Nekmo/sphinx-quiz
-  :alt: Test coverage
+.. image:: https://img.shields.io/pypi/l/sphinx-quiz?style=flat-square
+  :target: https://github.com/Nekmo/sphinx-quiz/blob/master/LICENSE.txt
+  :alt: License
+
+.. image:: https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fnekmo.github.io%2Fknow-your-python%2F&up_message=live%20demo&down_message=offline&label=quiz
+  :target: https://nekmo.github.io/know-your-python/
+  :alt: Live demo
 
 .. image:: https://img.shields.io/github/stars/Nekmo/sphinx-quiz?style=flat-square
   :target: https://github.com/Nekmo/sphinx-quiz
@@ -38,7 +42,8 @@ produces a self-contained static site that even works over ``file://``.
 
 The example project, *Know Your Python*, lives in its own repository
 (`know-your-python <https://github.com/Nekmo/know-your-python>`_) and
-installs this package as a dependency.
+installs this package as a dependency. **Try it live:**
+https://nekmo.github.io/know-your-python/
 
 
 Features

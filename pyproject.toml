@@ -35,7 +35,8 @@ dev = ["build", "twine", "tox", "bump2version", "flake8"]
 
 [project.urls]
 Homepage = "https://github.com/Nekmo/sphinx-quiz"
-Documentation = "https://docs.nekmo.org/sphinx-quiz/"
+Documentation = "https://github.com/Nekmo/sphinx-quiz#readme"
+Demo = "https://nekmo.github.io/know-your-python/"
 Source = "https://github.com/Nekmo/sphinx-quiz"
 Issues = "https://github.com/Nekmo/sphinx-quiz/issues"
 Changelog = "https://github.com/Nekmo/sphinx-quiz/blob/master/HISTORY.rst"
