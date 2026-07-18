@@ -1,12 +1,75 @@
-sphinx-quiz
-===========
+.. image:: https://raw.githubusercontent.com/Nekmo/sphinx-quiz/master/images/cover.png
+   :alt: sphinx-quiz — reStructuredText in, Kahoot-style quiz out
 
-Sphinx extension that builds a static quiz website from reStructuredText.
+|
+
+.. image:: https://img.shields.io/github/actions/workflow/status/Nekmo/sphinx-quiz/test.yml?style=flat-square&branch=master
+  :target: https://github.com/Nekmo/sphinx-quiz/actions?query=workflow%3ATests
+  :alt: Latest Tests CI build status
+
+.. image:: https://img.shields.io/pypi/v/sphinx-quiz.svg?style=flat-square
+  :target: https://pypi.org/project/sphinx-quiz/
+  :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/pypi/pyversions/sphinx-quiz.svg?style=flat-square
+  :target: https://pypi.org/project/sphinx-quiz/
+  :alt: Python versions
+
+.. image:: https://img.shields.io/codecov/c/github/Nekmo/sphinx-quiz/master.svg?style=flat-square
+  :target: https://codecov.io/github/Nekmo/sphinx-quiz
+  :alt: Test coverage
+
+.. image:: https://img.shields.io/github/stars/Nekmo/sphinx-quiz?style=flat-square
+  :target: https://github.com/Nekmo/sphinx-quiz
+  :alt: GitHub stars
+
+
+sphinx-quiz
+###########
+
+Sphinx extension that builds a static, Kahoot-style quiz website from
+reStructuredText — no JavaScript to write, no server to run.
 
 A quiz project is a regular Sphinx project using the ``sphinx_quiz``
 extension. The index page declares the quiz setup (level, category,
 number of questions and timer), and every question, with its choices,
-explanation and transition screens, is written as plain rst.
+explanation and transition screens, is written as plain rst. The build
+produces a self-contained static site that even works over ``file://``.
+
+The example project, *Know Your Python*, lives in its own repository
+(`know-your-python <https://github.com/Nekmo/know-your-python>`_) and
+installs this package as a dependency.
+
+
+Features
+========
+
+* Author an entire quiz in **plain reStructuredText** — questions,
+  choices, explanations, timers and results screens.
+* **Kahoot-style SPA** rendered client-side: setup screen, timed
+  questions, A/B/C/D colour cards, verdict and results screens.
+* **Single- or multiple-answer** questions with client-side shuffling.
+* Per-question **timer** with time-based transition screens.
+* **Results screen** with per-category/per-level breakdown, a review of
+  missed questions, a shareable results URL + image, and a podium gag.
+* **Internationalization** via Sphinx gettext, plus a UI-strings layer.
+* Ships a **dark, sidebar-free HTML theme** (``html_theme = 'sphinx_quiz'``).
+* Zero runtime dependencies in the browser; static output works offline.
+
+
+Install
+=======
+
+If you have Pip installed on your system, you can use it to install the
+latest stable version::
+
+    $ pip install sphinx-quiz
+
+Python 3.10+ is supported. Then enable it in your project's ``conf.py``::
+
+    extensions = ["sphinx_quiz"]
+    html_theme = "sphinx_quiz"
+
 
 Quick start
 -----------
@@ -21,7 +84,7 @@ and installs this package as a dependency:
 
     # the example quiz project, cloned next to this repo:
     cd ../know-your-python
-    pip install -r requirements.txt      # pulls in ../python-quiz
+    pip install -r requirements.txt      # pulls in ../sphinx-quiz
     make html
     xdg-open _build/html/index.html
 
@@ -105,3 +168,10 @@ The extension registers a dark, sidebar-free HTML theme; enable it with
 The results screen shows a per-category and per-level breakdown, a
 review of missed questions with their explanations, and keeps the best
 score per game configuration in the browser's ``localStorage``.
+
+
+License
+=======
+
+This software is under the MIT license. The author does not provide any
+warranty. Issues and pull requests are welcome — see ``CONTRIBUTING.rst``.

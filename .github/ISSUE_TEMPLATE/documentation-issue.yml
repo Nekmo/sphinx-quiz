@@ -1,0 +1,21 @@
+name: Documentation Issue
+description: Report something wrong, unclear or missing in the documentation.
+labels: ["documentation"]
+body:
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Page or file where the problem is (URL or path).
+      placeholder: "https://docs.nekmo.org/sphinx-quiz/usage.html"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing?
+      description: Describe the documentation problem and, if you can, how to fix it.
+    validations:
+      required: true

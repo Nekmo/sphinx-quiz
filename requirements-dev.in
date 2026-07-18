@@ -1,0 +1,11 @@
+-r requirements.in
+build
+twine
+tox
+bump2version
+flake8
+# Spanish translation tooling for the example project (the [i18n] extra):
+sphinx-intl
+# README cover generation (the cover-image skill, [cover] extra):
+google-genai
+pillow

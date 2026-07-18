@@ -4,17 +4,44 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sphinx-quiz"
-version = "0.1.0"
-description = "Sphinx extension to build static quiz websites from reStructuredText"
+dynamic = ["version"]
+description = "Sphinx extension to build static, Kahoot-style quiz websites from reStructuredText"
 readme = "README.rst"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Nekmo", email = "contacto@nekmo.com" }]
+keywords = ["sphinx", "quiz", "kahoot", "restructuredtext", "documentation", "static-site"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Sphinx :: Extension",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Documentation :: Sphinx",
+]
 dependencies = ["sphinx>=7.0"]
 
 [project.optional-dependencies]
 # Tooling for the example project's Spanish translation (gettext workflow).
 i18n = ["sphinx-intl>=2.1"]
+# README cover generation (the cover-image skill).
+cover = ["google-genai", "pillow"]
+# Development, testing and release.
+dev = ["build", "twine", "tox", "bump2version", "flake8"]
+
+[project.urls]
+Homepage = "https://github.com/Nekmo/sphinx-quiz"
+Documentation = "https://docs.nekmo.org/sphinx-quiz/"
+Source = "https://github.com/Nekmo/sphinx-quiz"
+Issues = "https://github.com/Nekmo/sphinx-quiz/issues"
+Changelog = "https://github.com/Nekmo/sphinx-quiz/blob/master/HISTORY.rst"
+
+[tool.setuptools.dynamic]
+version = { attr = "sphinx_quiz.__version__" }
 
 [tool.setuptools.packages.find]
 include = ["sphinx_quiz*"]

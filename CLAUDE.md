@@ -1,4 +1,4 @@
-# python-quiz
+# sphinx-quiz
 
 `sphinx_quiz` — a Sphinx extension + dark theme that builds a static,
 Kahoot-like quiz website from reStructuredText. **This repo is the library
@@ -15,7 +15,7 @@ package, editable, via its `requirements.txt`) to see the changes:
 python -m venv .venv && .venv/bin/pip install -e .   # the library, once
 # the example project, cloned next to this repo:
 cd ../know-your-python
-python -m venv .venv && .venv/bin/pip install -r requirements.txt  # pulls in ../python-quiz
+python -m venv .venv && .venv/bin/pip install -r requirements.txt  # pulls in ../sphinx-quiz
 .venv/bin/sphinx-build -M html . _build              # build the quiz site
 (cd _build/html && python -m http.server 8642)       # serve for testing
 ```

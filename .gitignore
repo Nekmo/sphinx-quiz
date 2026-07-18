@@ -1,5 +1,7 @@
 .venv/
 _build/
+build/
+dist/
 *.mo
 __pycache__/
 *.egg-info/

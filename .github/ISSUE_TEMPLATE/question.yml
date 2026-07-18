@@ -1,0 +1,19 @@
+name: Question
+description: Ask a question about using the extension.
+labels: ["question"]
+body:
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Ask away. Include what you have already tried and any relevant rst.
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Your Python, Sphinx and sphinx-quiz versions (if relevant).
+      placeholder: "Python 3.12, Sphinx 7.3, sphinx-quiz 0.1.0"

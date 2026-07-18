@@ -1,0 +1,53 @@
+name: Bug Report
+description: Create a report about a bug inside the extension.
+labels: ["bug"]
+body:
+
+  - type: textarea
+    id: reproducing-example
+    attributes:
+      label: How to reproduce
+      description: Provide the rst and/or the build command that reproduces the problem. If possible, attach the minimal project.
+      placeholder: |
+        ```rst
+        .. quiz-question::
+           :data-seconds: 30
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Explain what you expected to happen.
+      placeholder: |
+        "I was building... I expected the following to happen..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: Explain what actually happens.
+      placeholder: |
+        "This happened instead..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Traceback / build output
+      description: Paste the full Sphinx build output or traceback, if any.
+      render: shell
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Your OS, Python, Sphinx and sphinx-quiz versions.
+      placeholder: "Linux, Python 3.12, Sphinx 7.3, sphinx-quiz 0.1.0"
+    validations:
+      required: true
