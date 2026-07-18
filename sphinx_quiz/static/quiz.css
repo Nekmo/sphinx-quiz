@@ -305,7 +305,7 @@ body.sq-app-active .quiz-page-footer {
   right: 1.4rem;
   display: flex;
   gap: 0.5rem;
-  z-index: 6;
+  z-index: 15; /* above the fixed #sphinx-quiz-app mount (z-index 10) */
 }
 .sq-lang .sq-flag {
   display: block;
