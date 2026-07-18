@@ -35,6 +35,7 @@
       yourAnswer: "Your answer",
       off: "OFF",
       levels: { easy: "Easy", medium: "Medium", hard: "Hard" },
+      categories: { syntax: "Syntax", builtins: "Builtins", library: "Library", culture: "Culture" },
     },
     es: {
       question: "Pregunta",
@@ -68,13 +69,25 @@
       yourAnswer: "Tu respuesta",
       off: "OFF",
       levels: { easy: "Fácil", medium: "Medio", hard: "Difícil" },
+      categories: { syntax: "Sintaxis", builtins: "Builtins", library: "Biblioteca", culture: "Cultura" },
     },
   };
+
+  function capitalize(s) {
+    return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+  }
 
   /* Display label for a level value, falling back to the raw value. */
   function levelName(t, value) {
     if (value === "all") return t.mixed;
     return (t.levels && t.levels[value]) || value;
+  }
+
+  /* Display label for a category value; falls back to the capitalized key
+     so projects that don't declare translations still render sensibly. */
+  function categoryName(t, value) {
+    if (value === "all") return t.allCategory;
+    return (t.categories && t.categories[value]) || capitalize(value);
   }
 
   /* Kahoot-like palette for categories and choice letters. */
@@ -277,7 +290,7 @@
       card.style.animationDelay = 0.15 * i + "s";
       card.appendChild(el("span", "sq-fan-deco", "&gt;&gt;&gt;"));
       card.appendChild(
-        el("span", "sq-fan-name", category === "all" ? self.t.allCategory : category)
+        el("span", "sq-fan-name", categoryName(self.t, category))
       );
       card.addEventListener("click", function () {
         self.settings.category = category;
@@ -854,7 +867,7 @@
       var categoryCard = el(
         "span",
         "sq-info-card",
-        settings.category === "all" ? t.allCategory : settings.category
+        categoryName(t, settings.category)
       );
       categoryCard.style.setProperty("--card-color", this.categoryColor(settings.category));
       categoryRow.appendChild(categoryCard);
@@ -891,7 +904,9 @@
     }
 
     var categories = this.breakdown("category");
-    var byCategory = this.breakdownBlock(t.byCategory, categories, Object.keys(categories));
+    var byCategory = this.breakdownBlock(t.byCategory, categories, Object.keys(categories), function (name) {
+      return categoryName(t, name);
+    });
     if (byCategory) left.appendChild(byCategory);
     var levels = this.breakdown("level");
     var byLevel = this.breakdownBlock(t.byLevel, levels, sortLevels(Object.keys(levels)), function (name) {
@@ -1025,7 +1040,7 @@
       var group = groups[name];
       context.fillStyle = "#8fa1b8";
       context.font = "24px monospace";
-      context.fillText(name, 460, y + 8);
+      context.fillText(categoryName(self.t, name), 460, y + 8);
       context.fillStyle = "#232f40";
       context.fillRect(660, y - 8, 380, 18);
       context.fillStyle = "#4b8bbe";
