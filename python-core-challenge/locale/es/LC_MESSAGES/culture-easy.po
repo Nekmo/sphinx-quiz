@@ -1,0 +1,576 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../culture-easy.rst:4
+msgid "Culture Easy"
+msgstr "Cultura fácil"
+
+#: ../../../culture-easy.rst:11
+msgid "Where does the name \"Python\" come from?"
+msgstr "¿De dónde viene el nombre \"Python\"?"
+
+#: ../../../culture-easy.rst:20
+msgid "The snake species."
+msgstr "La especie de serpiente."
+
+#: ../../../culture-easy.rst:21
+msgid "The BBC comedy show *Monty Python's Flying Circus*."
+msgstr "El programa de humor de la BBC *Monty Python's Flying Circus*."
+
+#: ../../../culture-easy.rst:22
+msgid "Guido van Rossum's pet."
+msgstr "La mascota de Guido van Rossum."
+
+#: ../../../culture-easy.rst:23
+msgid "A contraction of \"Pythagoras\"."
+msgstr "Una contracción de \"Pitágoras\"."
+
+#: ../../../culture-easy.rst:26 ../../../culture-easy.rst:48
+#: ../../../culture-easy.rst:73 ../../../culture-easy.rst:94
+#: ../../../culture-easy.rst:114 ../../../culture-easy.rst:135
+#: ../../../culture-easy.rst:155 ../../../culture-easy.rst:176
+#: ../../../culture-easy.rst:201 ../../../culture-easy.rst:222
+#: ../../../culture-easy.rst:243 ../../../culture-easy.rst:263
+#: ../../../culture-easy.rst:284 ../../../culture-easy.rst:305
+#: ../../../culture-easy.rst:325 ../../../culture-easy.rst:346
+#: ../../../culture-easy.rst:370 ../../../culture-easy.rst:391
+#: ../../../culture-easy.rst:412 ../../../culture-easy.rst:432
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../../../culture-easy.rst:28
+msgid ""
+"Guido van Rossum named the language after *Monty Python's Flying Circus*, "
+"not the snake -- hence the recurring \"spam\" and Monty Python references in"
+" the docs."
+msgstr ""
+"Guido van Rossum puso al lenguaje el nombre de *Monty Python's Flying "
+"Circus*, no de la serpiente; de ahí las recurrentes referencias a \"spam\" y"
+" a Monty Python en la documentación."
+
+#: ../../../culture-easy.rst:33
+msgid "Who created the Python programming language?"
+msgstr "¿Quién creó el lenguaje de programación Python?"
+
+#: ../../../culture-easy.rst:42
+msgid "Linus Torvalds."
+msgstr "Linus Torvalds."
+
+#: ../../../culture-easy.rst:43
+msgid "Dennis Ritchie."
+msgstr "Dennis Ritchie."
+
+#: ../../../culture-easy.rst:44
+msgid "Guido van Rossum."
+msgstr "Guido van Rossum."
+
+#: ../../../culture-easy.rst:45
+msgid "James Gosling."
+msgstr "James Gosling."
+
+#: ../../../culture-easy.rst:50
+msgid ""
+"Guido van Rossum started Python in late 1989 and released the first version "
+"in 1991."
+msgstr ""
+"Guido van Rossum empezó Python a finales de 1989 y publicó la primera "
+"versión en 1991."
+
+#: ../../../culture-easy.rst:54
+msgid "What does ``import this`` display?"
+msgstr "¿Qué muestra ``import this``?"
+
+#: ../../../culture-easy.rst:67
+msgid "A list of installed packages."
+msgstr "Una lista de los paquetes instalados."
+
+#: ../../../culture-easy.rst:68
+msgid "The current date and time."
+msgstr "La fecha y hora actuales."
+
+#: ../../../culture-easy.rst:69
+msgid "The Zen of Python."
+msgstr "El Zen de Python."
+
+#: ../../../culture-easy.rst:70
+msgid "Nothing at all."
+msgstr "Nada en absoluto."
+
+#: ../../../culture-easy.rst:75
+msgid ""
+"``import this`` prints *The Zen of Python*, a short collection of guiding "
+"aphorisms for writing Python code."
+msgstr ""
+"``import this`` imprime *El Zen de Python*, una breve colección de aforismos"
+" que guían la escritura de código Python."
+
+#: ../../../culture-easy.rst:79
+msgid "In what year was Python first released?"
+msgstr "¿En qué año se publicó Python por primera vez?"
+
+#: ../../../culture-easy.rst:96
+msgid "Guido van Rossum published the first release of Python in 1991."
+msgstr "Guido van Rossum publicó la primera versión de Python en 1991."
+
+#: ../../../culture-easy.rst:99
+msgid "Why do Python examples so often use the word \"spam\"?"
+msgstr "¿Por qué los ejemplos de Python usan tan a menudo la palabra \"spam\"?"
+
+#: ../../../culture-easy.rst:108
+msgid "It is an acronym for \"sample program\"."
+msgstr "Es un acrónimo de \"sample program\"."
+
+#: ../../../culture-easy.rst:109
+msgid "It refers to unwanted email."
+msgstr "Se refiere al correo no deseado."
+
+#: ../../../culture-easy.rst:110
+msgid "It is short for \"spa memory\"."
+msgstr "Es una abreviatura de \"spa memory\"."
+
+#: ../../../culture-easy.rst:111
+msgid "It is a nod to a *Monty Python* sketch."
+msgstr "Es un guiño a un sketch de *Monty Python*."
+
+#: ../../../culture-easy.rst:116
+msgid ""
+"The classic placeholder names ``spam`` and ``eggs`` come from the *Monty "
+"Python* \"Spam\" sketch, keeping with the language's namesake."
+msgstr ""
+"Los clásicos nombres de relleno ``spam`` y ``eggs`` provienen del sketch "
+"\"Spam\" de *Monty Python*, en consonancia con el origen del nombre del "
+"lenguaje."
+
+#: ../../../culture-easy.rst:120
+msgid "What is the standard file extension for Python source files?"
+msgstr ""
+"¿Cuál es la extensión de archivo estándar para los archivos fuente de "
+"Python?"
+
+#: ../../../culture-easy.rst:129
+msgid "``.pt``"
+msgstr "``.pt``"
+
+#: ../../../culture-easy.rst:130
+msgid "``.pyt``"
+msgstr "``.pyt``"
+
+#: ../../../culture-easy.rst:131
+msgid "``.py``"
+msgstr "``.py``"
+
+#: ../../../culture-easy.rst:132
+msgid "``.python``"
+msgstr "``.python``"
+
+#: ../../../culture-easy.rst:137
+msgid "Python source files use the ``.py`` extension."
+msgstr "Los archivos fuente de Python usan la extensión ``.py``."
+
+#: ../../../culture-easy.rst:140
+msgid "Which major version of Python is actively supported today?"
+msgstr "¿Qué versión principal de Python tiene soporte activo hoy en día?"
+
+#: ../../../culture-easy.rst:149
+msgid "Python 1."
+msgstr "Python 1."
+
+#: ../../../culture-easy.rst:150
+msgid "Python 2."
+msgstr "Python 2."
+
+#: ../../../culture-easy.rst:151
+msgid "Python 3."
+msgstr "Python 3."
+
+#: ../../../culture-easy.rst:152
+msgid "Python 5."
+msgstr "Python 5."
+
+#: ../../../culture-easy.rst:157
+msgid ""
+"Python 3 is the current, supported line. Python 2 reached end of life on "
+"January 1, 2020."
+msgstr ""
+"Python 3 es la línea actual y con soporte. Python 2 llegó al final de su "
+"vida útil el 1 de enero de 2020."
+
+#: ../../../culture-easy.rst:161
+msgid "What is the name of Python's official third-party package repository?"
+msgstr ""
+"¿Cómo se llama el repositorio oficial de paquetes de terceros de Python?"
+
+#: ../../../culture-easy.rst:170
+msgid "npm."
+msgstr "npm."
+
+#: ../../../culture-easy.rst:171
+msgid "PyPI (the Python Package Index)."
+msgstr "PyPI (el Python Package Index)."
+
+#: ../../../culture-easy.rst:172
+msgid "Maven Central."
+msgstr "Maven Central."
+
+#: ../../../culture-easy.rst:173
+msgid "CRAN."
+msgstr "CRAN."
+
+#: ../../../culture-easy.rst:178
+msgid ""
+"PyPI, the Python Package Index, hosts the third-party packages you install "
+"with ``pip``."
+msgstr ""
+"PyPI, el Python Package Index, aloja los paquetes de terceros que instalas "
+"con ``pip``."
+
+#: ../../../culture-easy.rst:182
+msgid "What does ``import antigravity`` do?"
+msgstr "¿Qué hace ``import antigravity``?"
+
+#: ../../../culture-easy.rst:195
+msgid "Raises an ImportError."
+msgstr "Lanza un ImportError."
+
+#: ../../../culture-easy.rst:196
+msgid "Disables Python's garbage collector."
+msgstr "Desactiva el recolector de basura de Python."
+
+#: ../../../culture-easy.rst:197
+msgid "Prints the Zen of Python."
+msgstr "Imprime el Zen de Python."
+
+#: ../../../culture-easy.rst:198
+msgid "Opens an *xkcd* webcomic in your browser."
+msgstr "Abre un webcómic de *xkcd* en tu navegador."
+
+#: ../../../culture-easy.rst:203
+msgid ""
+"``import antigravity`` is an Easter egg that opens the *xkcd* comic about "
+"Python in your web browser."
+msgstr ""
+"``import antigravity`` es un huevo de pascua que abre en tu navegador el "
+"cómic de *xkcd* sobre Python."
+
+#: ../../../culture-easy.rst:207
+msgid "Which line is genuinely part of the Zen of Python?"
+msgstr "¿Qué frase forma parte realmente del Zen de Python?"
+
+#: ../../../culture-easy.rst:216
+msgid "\"Move fast and break things.\""
+msgstr "\"Muévete rápido y rompe cosas.\""
+
+#: ../../../culture-easy.rst:217
+msgid "\"Write once, run anywhere.\""
+msgstr "\"Escríbelo una vez, ejecútalo donde sea.\""
+
+#: ../../../culture-easy.rst:218
+msgid "\"Readability counts.\""
+msgstr "\"La legibilidad cuenta.\""
+
+#: ../../../culture-easy.rst:219
+msgid "\"There is more than one way to do it.\""
+msgstr "\"Hay más de una forma de hacerlo.\""
+
+#: ../../../culture-easy.rst:224
+msgid ""
+"\"Readability counts.\" is one of the aphorisms in *The Zen of Python*. The "
+"last one -- about many ways to do it -- is actually a Perl motto."
+msgstr ""
+"\"La legibilidad cuenta.\" es uno de los aforismos de *El Zen de Python*. El"
+" último -sobre las muchas formas de hacerlo- es en realidad un lema de Perl."
+
+#: ../../../culture-easy.rst:228
+msgid "What is the default prompt of Python's interactive interpreter?"
+msgstr "¿Cuál es el prompt por defecto del intérprete interactivo de Python?"
+
+#: ../../../culture-easy.rst:237
+msgid "``$``"
+msgstr "``$``"
+
+#: ../../../culture-easy.rst:238
+msgid "``>>>``"
+msgstr "``>>>``"
+
+#: ../../../culture-easy.rst:239
+msgid "``#``"
+msgstr "``#``"
+
+#: ../../../culture-easy.rst:240
+msgid "``py>``"
+msgstr "``py>``"
+
+#: ../../../culture-easy.rst:245
+msgid "The Python REPL prompts you with ``>>>`` for each new statement."
+msgstr "El REPL de Python te muestra ``>>>`` para cada nueva instrucción."
+
+#: ../../../culture-easy.rst:248
+msgid "What does Python's logo depict?"
+msgstr "¿Qué representa el logotipo de Python?"
+
+#: ../../../culture-easy.rst:257
+msgid "A single coiled snake."
+msgstr "Una única serpiente enroscada."
+
+#: ../../../culture-easy.rst:258
+msgid "Two intertwined snakes."
+msgstr "Dos serpientes entrelazadas."
+
+#: ../../../culture-easy.rst:259
+msgid "A circus tent."
+msgstr "Una carpa de circo."
+
+#: ../../../culture-easy.rst:260
+msgid "A blue elephant."
+msgstr "Un elefante azul."
+
+#: ../../../culture-easy.rst:265
+msgid ""
+"The modern Python logo shows two stylized, intertwined snakes in blue and "
+"yellow."
+msgstr ""
+"El logotipo moderno de Python muestra dos serpientes estilizadas y "
+"entrelazadas en azul y amarillo."
+
+#: ../../../culture-easy.rst:269
+msgid "Python is best described as which kind of language?"
+msgstr "¿Cómo se describe mejor Python como lenguaje?"
+
+#: ../../../culture-easy.rst:278
+msgid "A markup language."
+msgstr "Un lenguaje de marcado."
+
+#: ../../../culture-easy.rst:279
+msgid ""
+"A language that must be compiled to a standalone ``.exe`` before running."
+msgstr ""
+"Un lenguaje que debe compilarse a un ``.exe`` independiente antes de "
+"ejecutarse."
+
+#: ../../../culture-easy.rst:280
+msgid "An interpreted, high-level language."
+msgstr "Un lenguaje interpretado y de alto nivel."
+
+#: ../../../culture-easy.rst:281
+msgid "A hardware description language."
+msgstr "Un lenguaje de descripción de hardware."
+
+#: ../../../culture-easy.rst:286
+msgid ""
+"Python is a high-level, interpreted language: you run source files directly "
+"without a separate compile step."
+msgstr ""
+"Python es un lenguaje interpretado y de alto nivel: ejecutas los archivos "
+"fuente directamente, sin un paso de compilación aparte."
+
+#: ../../../culture-easy.rst:290
+msgid ""
+"Besides ``spam``, which word is the other classic Python placeholder name?"
+msgstr ""
+"Además de ``spam``, ¿cuál es el otro clásico nombre de relleno de Python?"
+
+#: ../../../culture-easy.rst:299
+msgid "``foo``"
+msgstr "``foo``"
+
+#: ../../../culture-easy.rst:300
+msgid "``bar``"
+msgstr "``bar``"
+
+#: ../../../culture-easy.rst:301
+msgid "``baz``"
+msgstr "``baz``"
+
+#: ../../../culture-easy.rst:302
+msgid "``eggs``"
+msgstr "``eggs``"
+
+#: ../../../culture-easy.rst:307
+msgid "``spam`` and ``eggs`` go together, both borrowed from *Monty Python*."
+msgstr "``spam`` y ``eggs`` van juntos, ambos tomados de *Monty Python*."
+
+#: ../../../culture-easy.rst:310
+msgid "What is the name of the largest annual community Python conference?"
+msgstr "¿Cómo se llama la mayor conferencia anual de la comunidad Python?"
+
+#: ../../../culture-easy.rst:319
+msgid "PyDay."
+msgstr "PyDay."
+
+#: ../../../culture-easy.rst:320
+msgid "SnakeConf."
+msgstr "SnakeConf."
+
+#: ../../../culture-easy.rst:321
+msgid "PyCon."
+msgstr "PyCon."
+
+#: ../../../culture-easy.rst:322
+msgid "DjangoCon."
+msgstr "DjangoCon."
+
+#: ../../../culture-easy.rst:327
+msgid ""
+"PyCon is the flagship community conference for Python, held in many "
+"countries around the world."
+msgstr ""
+"PyCon es la conferencia comunitaria de referencia de Python, celebrada en "
+"muchos países del mundo."
+
+#: ../../../culture-easy.rst:331
+msgid ""
+"Complete the first line of the Zen of Python: \"Beautiful is better than "
+"___.\""
+msgstr "Completa la primera frase del Zen de Python: \"Bello es mejor que ___.\""
+
+#: ../../../culture-easy.rst:340
+msgid "\"boring\"."
+msgstr "\"aburrido\"."
+
+#: ../../../culture-easy.rst:341
+msgid "\"complex\"."
+msgstr "\"complejo\"."
+
+#: ../../../culture-easy.rst:342
+msgid "\"clever\"."
+msgstr "\"ingenioso\"."
+
+#: ../../../culture-easy.rst:343
+msgid "\"ugly\"."
+msgstr "\"feo\"."
+
+#: ../../../culture-easy.rst:348
+msgid "The Zen of Python opens with \"Beautiful is better than ugly.\""
+msgstr "El Zen de Python empieza con \"Bello es mejor que feo.\""
+
+#: ../../../culture-easy.rst:351
+msgid "What does this program print?"
+msgstr "¿Qué imprime este programa?"
+
+#: ../../../culture-easy.rst:364
+msgid "``Hello world``"
+msgstr "``Hello world``"
+
+#: ../../../culture-easy.rst:365
+msgid "``Hello, world!``"
+msgstr "``Hello, world!``"
+
+#: ../../../culture-easy.rst:366
+msgid "``\"Hello, world!\"``"
+msgstr "``\"Hello, world!\"``"
+
+#: ../../../culture-easy.rst:367
+msgid "Nothing."
+msgstr "Nada."
+
+#: ../../../culture-easy.rst:372
+msgid ""
+"``print`` writes its argument to the screen exactly, including the comma and"
+" exclamation mark."
+msgstr ""
+"``print`` escribe su argumento en la pantalla tal cual, incluyendo la coma y"
+" el signo de exclamación."
+
+#: ../../../culture-easy.rst:376
+msgid "Which statement about Python's licensing is true?"
+msgstr "¿Cuál de estas afirmaciones sobre la licencia de Python es cierta?"
+
+#: ../../../culture-easy.rst:385
+msgid "It is proprietary and closed source."
+msgstr "Es propietario y de código cerrado."
+
+#: ../../../culture-easy.rst:386
+msgid "It requires a paid license for commercial use."
+msgstr "Requiere una licencia de pago para uso comercial."
+
+#: ../../../culture-easy.rst:387
+msgid "It is free and open source."
+msgstr "Es libre y de código abierto."
+
+#: ../../../culture-easy.rst:388
+msgid "It can only be used for education."
+msgstr "Solo puede usarse con fines educativos."
+
+#: ../../../culture-easy.rst:393
+msgid ""
+"Python is free and open source, developed openly by the Python Software "
+"Foundation and a global community."
+msgstr ""
+"Python es libre y de código abierto, desarrollado de forma abierta por la "
+"Python Software Foundation y una comunidad global."
+
+#: ../../../culture-easy.rst:397
+msgid "Which of these is a real Python Easter egg?"
+msgstr "¿Cuál de estos es un huevo de pascua real de Python?"
+
+#: ../../../culture-easy.rst:406
+msgid "``import pizza``"
+msgstr "``import pizza``"
+
+#: ../../../culture-easy.rst:407
+msgid "``import this``"
+msgstr "``import this``"
+
+#: ../../../culture-easy.rst:408
+msgid "``import rainbow``"
+msgstr "``import rainbow``"
+
+#: ../../../culture-easy.rst:409
+msgid "``import cake``"
+msgstr "``import cake``"
+
+#: ../../../culture-easy.rst:414
+msgid ""
+"``import this`` prints *The Zen of Python*; the others are not real modules."
+msgstr ""
+"``import this`` imprime *El Zen de Python*; los demás no son módulos reales."
+
+#: ../../../culture-easy.rst:417
+msgid ""
+"By what nickname was Guido van Rossum long known in the Python community?"
+msgstr ""
+"¿Con qué apodo se conoció durante mucho tiempo a Guido van Rossum en la "
+"comunidad Python?"
+
+#: ../../../culture-easy.rst:426
+msgid "The Architect."
+msgstr "El Arquitecto."
+
+#: ../../../culture-easy.rst:427
+msgid "The Chief Snake."
+msgstr "La Serpiente Jefa."
+
+#: ../../../culture-easy.rst:428
+msgid "The BDFL."
+msgstr "El BDFL."
+
+#: ../../../culture-easy.rst:429
+msgid "The Grand Wizard."
+msgstr "El Gran Mago."
+
+#: ../../../culture-easy.rst:434
+msgid ""
+"Guido was the \"BDFL\" -- Benevolent Dictator For Life -- until he stepped "
+"down from that role in 2018."
+msgstr ""
+"Guido fue el \"BDFL\" -Benevolent Dictator For Life, dictador benévolo "
+"vitalicio- hasta que dejó ese cargo en 2018."

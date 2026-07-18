@@ -12,6 +12,10 @@ license = { text = "MIT" }
 authors = [{ name = "Nekmo", email = "contacto@nekmo.com" }]
 dependencies = ["sphinx>=7.0"]
 
+[project.optional-dependencies]
+# Tooling for the example project's Spanish translation (gettext workflow).
+i18n = ["sphinx-intl>=2.1"]
+
 [tool.setuptools.packages.find]
 include = ["sphinx_quiz*"]
 

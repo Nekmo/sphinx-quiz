@@ -18,6 +18,23 @@ directory — restart it after rebuilding. For CSS/JS-only tweaks it is
 faster to `cp sphinx_quiz/static/quiz.{js,css} python-core-challenge/_build/html/_static/`
 than to rebuild.
 
+Always full-rebuild after editing questions: an incremental build only
+re-reads the changed doc, so `quiz-data.js` ends up with just that doc's
+questions. `rm -rf _build` first.
+
+Spanish site (separate static build):
+```bash
+../.venv/bin/pip install -e '.[i18n]'                # sphinx-intl, once
+make -C python-core-challenge html-es                 # → _build/html-es/html
+```
+After editing/adding questions, refresh the catalogs:
+```bash
+cd python-core-challenge
+make gettext
+../.venv/bin/sphinx-intl update -p _build/gettext/gettext -l es   # note the nested gettext/
+# then translate the empty msgstr in locale/es/LC_MESSAGES/*.po
+```
+
 ## Architecture
 
 Data flows in one direction: rst → doctree markers → JSON payload → SPA.
@@ -65,11 +82,24 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
     (`sphinx-quiz-best:<level>:<category>:<n>:<timer>`).
 - `sphinx_quiz/theme/` — dark sidebar-free HTML theme registered as
   `html_theme = 'sphinx_quiz'`; sets `pygments_style = monokai`.
+- Example project questions live one file per `(category, level)` pair:
+  `python-core-challenge/<category>-<level>.rst` (e.g. `syntax-hard.rst`),
+  each `:orphan:` with a single `quiz-section` and 20 questions. The
+  `index.rst` toctree globs `*`, so new files are auto-included. Every
+  code-bearing question's marked answer is verified by executing the
+  snippet under the venv Python — keep it that way when adding questions.
+- i18n: `conf.py` sets `locale_dirs = ['locale/']` + `gettext_compact =
+  False`; Spanish catalogs are `locale/es/LC_MESSAGES/*.po` (one per doc).
+  Translate prose + choices, keep code/`literals`/identifiers verbatim.
+  `data-correct` is positional in the `.rst`, so translations never change
+  which answer is correct. `.mo` files are gitignored (built on demand).
 
 ## Style guide (user decisions — keep)
 
-- Everything in English (project `language = 'en'`; UI strings follow
-  `data.language`, `es` translations exist in `quiz.js`).
+- Source content in English (project `language = 'en'`; UI strings follow
+  `data.language`, `es` translations exist in `quiz.js`). A full es-ES
+  question translation lives in `locale/es/` (gettext); build it with
+  `make html-es` — see Commands.
 - Kahoot palette (`PALETTE` in quiz.js); solid-color borderless cards;
   mono pill buttons (yellow outline = primary); single blue for
   breakdown bars; monocolor SVG icons/images only.

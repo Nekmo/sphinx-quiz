@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../transitions.rst:4
+msgid "That was quick!!"
+msgstr "¡¡Qué rápido!!"
+
+#: ../../../transitions.rst:10
+msgid "You were very clear about it!"
+msgstr "¡Lo tenías clarísimo!"
+
+#: ../../../transitions.rst:14
+msgid "Narrowly!"
+msgstr "¡Por los pelos!"
+
+#: ../../../transitions.rst:20
+msgid "You almost made it"
+msgstr "Casi lo consigues"
+
+#: ../../../transitions.rst:24
+msgid "Correct!"
+msgstr "¡Correcto!"
+
+#: ../../../transitions.rst:31
+msgid "You went too fast!"
+msgstr "¡Fuiste demasiado rápido!"
+
+#: ../../../transitions.rst:37
+msgid "There was no need to rush, was there?"
+msgstr "No hacía falta correr tanto, ¿verdad?"
+
+#: ../../../transitions.rst:41
+msgid "Bad luck!"
+msgstr "¡Mala suerte!"
+
+#: ../../../transitions.rst:46
+msgid "Wrong answer..."
+msgstr "Respuesta incorrecta..."
+
+#: ../../../transitions.rst:50
+msgid "Time out!"
+msgstr "¡Se acabó el tiempo!"
+
+#: ../../../transitions.rst:56
+msgid "There is no more time."
+msgstr "Ya no queda tiempo."

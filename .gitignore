@@ -1,6 +1,8 @@
 .venv/
 _build/
+*.mo
 __pycache__/
 *.egg-info/
 .idea/
 nohup.out
+.playwright-mcp/

@@ -1,0 +1,534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../culture-medium.rst:4
+msgid "Culture Medium"
+msgstr "Cultura intermedio"
+
+#: ../../../culture-medium.rst:11
+msgid "What does \"BDFL\" stand for?"
+msgstr "¿Qué significa \"BDFL\"?"
+
+#: ../../../culture-medium.rst:20
+msgid "Base Development Framework Library."
+msgstr "Base Development Framework Library."
+
+#: ../../../culture-medium.rst:21
+msgid "Benevolent Dictator For Life."
+msgstr "Benevolent Dictator For Life."
+
+#: ../../../culture-medium.rst:22
+msgid "Binary Data Format Language."
+msgstr "Binary Data Format Language."
+
+#: ../../../culture-medium.rst:23
+msgid "Brave Default Function Loader."
+msgstr "Brave Default Function Loader."
+
+#: ../../../culture-medium.rst:26 ../../../culture-medium.rst:48
+#: ../../../culture-medium.rst:69 ../../../culture-medium.rst:90
+#: ../../../culture-medium.rst:111 ../../../culture-medium.rst:132
+#: ../../../culture-medium.rst:153 ../../../culture-medium.rst:174
+#: ../../../culture-medium.rst:195 ../../../culture-medium.rst:217
+#: ../../../culture-medium.rst:238 ../../../culture-medium.rst:259
+#: ../../../culture-medium.rst:280 ../../../culture-medium.rst:301
+#: ../../../culture-medium.rst:322 ../../../culture-medium.rst:343
+#: ../../../culture-medium.rst:364 ../../../culture-medium.rst:385
+#: ../../../culture-medium.rst:406 ../../../culture-medium.rst:427
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../../../culture-medium.rst:28
+msgid ""
+"\"BDFL\" -- Benevolent Dictator For Life -- was Guido van Rossum's title for"
+" having the final say on the language's direction, until he stepped down in "
+"2018."
+msgstr ""
+"\"BDFL\" -Benevolent Dictator For Life, dictador benévolo vitalicio- era el "
+"título de Guido van Rossum por tener la última palabra sobre la dirección "
+"del lenguaje, hasta que se retiró en 2018."
+
+#: ../../../culture-medium.rst:33
+msgid "What is the subject of PEP 8?"
+msgstr "¿Sobre qué trata la PEP 8?"
+
+#: ../../../culture-medium.rst:42 ../../../culture-medium.rst:106
+#: ../../../culture-medium.rst:127
+msgid "Type hints."
+msgstr "Las anotaciones de tipo."
+
+#: ../../../culture-medium.rst:43 ../../../culture-medium.rst:64
+msgid "The Zen of Python."
+msgstr "El Zen de Python."
+
+#: ../../../culture-medium.rst:44
+msgid "The style guide for Python code."
+msgstr "La guía de estilo para el código Python."
+
+#: ../../../culture-medium.rst:45 ../../../culture-medium.rst:107
+msgid "The walrus operator."
+msgstr "El operador morsa."
+
+#: ../../../culture-medium.rst:50
+msgid ""
+"PEP 8 is the widely followed style guide for Python code, covering naming, "
+"indentation, and layout conventions."
+msgstr ""
+"La PEP 8 es la guía de estilo, ampliamente seguida, para el código Python, "
+"que abarca convenciones de nombres, sangría y disposición."
+
+#: ../../../culture-medium.rst:54
+msgid "What is the subject of PEP 20?"
+msgstr "¿Sobre qué trata la PEP 20?"
+
+#: ../../../culture-medium.rst:63
+msgid "The coding style guide."
+msgstr "La guía de estilo de código."
+
+#: ../../../culture-medium.rst:65
+msgid "String formatting."
+msgstr "El formateo de cadenas."
+
+#: ../../../culture-medium.rst:66
+msgid "The import system."
+msgstr "El sistema de importación."
+
+#: ../../../culture-medium.rst:71
+msgid ""
+"PEP 20 is *The Zen of Python*, the collection of aphorisms you see when you "
+"run ``import this``."
+msgstr ""
+"La PEP 20 es *El Zen de Python*, la colección de aforismos que ves al "
+"ejecutar ``import this``."
+
+#: ../../../culture-medium.rst:75
+msgid "Who wrote the Zen of Python?"
+msgstr "¿Quién escribió el Zen de Python?"
+
+#: ../../../culture-medium.rst:84 ../../../culture-medium.rst:189
+msgid "Guido van Rossum."
+msgstr "Guido van Rossum."
+
+#: ../../../culture-medium.rst:85
+msgid "Barry Warsaw."
+msgstr "Barry Warsaw."
+
+#: ../../../culture-medium.rst:86 ../../../culture-medium.rst:191
+msgid "Tim Peters."
+msgstr "Tim Peters."
+
+#: ../../../culture-medium.rst:87
+msgid "Raymond Hettinger."
+msgstr "Raymond Hettinger."
+
+#: ../../../culture-medium.rst:92
+msgid ""
+"Tim Peters wrote *The Zen of Python* (PEP 20). He also created Python's "
+"sorting algorithm, Timsort."
+msgstr ""
+"Tim Peters escribió *El Zen de Python* (PEP 20). También creó el algoritmo "
+"de ordenación de Python, Timsort."
+
+#: ../../../culture-medium.rst:96
+msgid "What did PEP 484 introduce to Python?"
+msgstr "¿Qué introdujo la PEP 484 en Python?"
+
+#: ../../../culture-medium.rst:105
+msgid "f-strings."
+msgstr "Las f-strings."
+
+#: ../../../culture-medium.rst:108
+msgid "Async/await."
+msgstr "Async/await."
+
+#: ../../../culture-medium.rst:113
+msgid ""
+"PEP 484 introduced type hints, a standard syntax for optionally annotating "
+"the types of variables, arguments, and return values."
+msgstr ""
+"La PEP 484 introdujo las anotaciones de tipo, una sintaxis estándar para "
+"anotar opcionalmente los tipos de variables, argumentos y valores de "
+"retorno."
+
+#: ../../../culture-medium.rst:117
+msgid "Which feature was introduced by PEP 572?"
+msgstr "¿Qué funcionalidad introdujo la PEP 572?"
+
+#: ../../../culture-medium.rst:126
+msgid "Decorators."
+msgstr "Los decoradores."
+
+#: ../../../culture-medium.rst:128
+msgid "The walrus operator (``:=``)."
+msgstr "El operador morsa (``:=``)."
+
+#: ../../../culture-medium.rst:129
+msgid "Context managers."
+msgstr "Los gestores de contexto."
+
+#: ../../../culture-medium.rst:134
+msgid ""
+"PEP 572 added assignment expressions using the ``:=`` operator, nicknamed "
+"the \"walrus operator\" because ``:=`` resembles a walrus's eyes and tusks."
+msgstr ""
+"La PEP 572 añadió las expresiones de asignación mediante el operador ``:=``,"
+" apodado \"operador morsa\" porque ``:=`` recuerda a los ojos y colmillos de"
+" una morsa."
+
+#: ../../../culture-medium.rst:138
+msgid "Which symbol is the \"walrus operator\"?"
+msgstr "¿Qué símbolo es el \"operador morsa\"?"
+
+#: ../../../culture-medium.rst:147
+msgid "``=>``"
+msgstr "``=>``"
+
+#: ../../../culture-medium.rst:148
+msgid "``->``"
+msgstr "``->``"
+
+#: ../../../culture-medium.rst:149
+msgid "``<-``"
+msgstr "``<-``"
+
+#: ../../../culture-medium.rst:150
+msgid "``:=``"
+msgstr "``:=``"
+
+#: ../../../culture-medium.rst:155
+msgid ""
+"``:=`` is the walrus operator; it assigns a value as part of a larger "
+"expression."
+msgstr ""
+"``:=`` es el operador morsa; asigna un valor como parte de una expresión "
+"mayor."
+
+#: ../../../culture-medium.rst:159
+msgid "On what date did Python 2 reach end of life?"
+msgstr "¿En qué fecha llegó Python 2 al final de su vida útil?"
+
+#: ../../../culture-medium.rst:168
+msgid "December 31, 2015."
+msgstr "31 de diciembre de 2015."
+
+#: ../../../culture-medium.rst:169
+msgid "January 1, 2020."
+msgstr "1 de enero de 2020."
+
+#: ../../../culture-medium.rst:170
+msgid "June 1, 2018."
+msgstr "1 de junio de 2018."
+
+#: ../../../culture-medium.rst:171
+msgid "January 1, 2022."
+msgstr "1 de enero de 2022."
+
+#: ../../../culture-medium.rst:176
+msgid ""
+"Python 2 officially reached end of life on January 1, 2020; no further "
+"security or bug fixes are released for it."
+msgstr ""
+"Python 2 llegó oficialmente al final de su vida útil el 1 de enero de 2020; "
+"ya no se publican para él correcciones de seguridad ni de errores."
+
+#: ../../../culture-medium.rst:180
+msgid "Who created Timsort, Python's built-in sorting algorithm?"
+msgstr "¿Quién creó Timsort, el algoritmo de ordenación integrado de Python?"
+
+#: ../../../culture-medium.rst:190
+msgid "Donald Knuth."
+msgstr "Donald Knuth."
+
+#: ../../../culture-medium.rst:192
+msgid "Alex Martelli."
+msgstr "Alex Martelli."
+
+#: ../../../culture-medium.rst:197
+msgid ""
+"Timsort, the hybrid sorting algorithm used by ``sorted()`` and "
+"``list.sort()``, was created by Tim Peters -- the same author as the Zen of "
+"Python."
+msgstr ""
+"Timsort, el algoritmo de ordenación híbrido que usan ``sorted()`` y "
+"``list.sort()``, fue creado por Tim Peters, el mismo autor que el Zen de "
+"Python."
+
+#: ../../../culture-medium.rst:202
+msgid "What does \"PEP\" stand for?"
+msgstr "¿Qué significa \"PEP\"?"
+
+#: ../../../culture-medium.rst:211
+msgid "Python Extension Package."
+msgstr "Python Extension Package."
+
+#: ../../../culture-medium.rst:212
+msgid "Python Enhancement Proposal."
+msgstr "Python Enhancement Proposal."
+
+#: ../../../culture-medium.rst:213
+msgid "Public Execution Protocol."
+msgstr "Public Execution Protocol."
+
+#: ../../../culture-medium.rst:214
+msgid "Portable Encoding Policy."
+msgstr "Portable Encoding Policy."
+
+#: ../../../culture-medium.rst:219
+msgid ""
+"A PEP is a Python Enhancement Proposal: a design document proposing new "
+"features or conventions for the language and community."
+msgstr ""
+"Una PEP es una Python Enhancement Proposal: un documento de diseño que "
+"propone nuevas funcionalidades o convenciones para el lenguaje y la "
+"comunidad."
+
+#: ../../../culture-medium.rst:223
+msgid "In what year was Python 2.0 released?"
+msgstr "¿En qué año se publicó Python 2.0?"
+
+#: ../../../culture-medium.rst:240
+msgid ""
+"Python 2.0 was released in 2000, introducing features such as list "
+"comprehensions and cycle-detecting garbage collection."
+msgstr ""
+"Python 2.0 se publicó en 2000, introduciendo funcionalidades como las "
+"comprensiones de listas y un recolector de basura capaz de detectar ciclos."
+
+#: ../../../culture-medium.rst:244
+msgid "In what year was Python 3.0 released?"
+msgstr "¿En qué año se publicó Python 3.0?"
+
+#: ../../../culture-medium.rst:261
+msgid ""
+"Python 3.0 was released in 2008. It deliberately broke backward "
+"compatibility to clean up long-standing design issues."
+msgstr ""
+"Python 3.0 se publicó en 2008. Rompió deliberadamente la compatibilidad "
+"hacia atrás para depurar problemas de diseño arrastrados durante mucho "
+"tiempo."
+
+#: ../../../culture-medium.rst:265
+msgid "What does \"GIL\" stand for in CPython?"
+msgstr "¿Qué significa \"GIL\" en CPython?"
+
+#: ../../../culture-medium.rst:274
+msgid "General Import Loader."
+msgstr "General Import Loader."
+
+#: ../../../culture-medium.rst:275
+msgid "Garbage Inspection Layer."
+msgstr "Garbage Inspection Layer."
+
+#: ../../../culture-medium.rst:276
+msgid "Global Interpreter Lock."
+msgstr "Global Interpreter Lock."
+
+#: ../../../culture-medium.rst:277
+msgid "Generic Iteration Loop."
+msgstr "Generic Iteration Loop."
+
+#: ../../../culture-medium.rst:282
+msgid ""
+"The GIL, or Global Interpreter Lock, ensures that only one thread executes "
+"Python bytecode at a time in CPython."
+msgstr ""
+"El GIL, o Global Interpreter Lock, garantiza que en CPython solo un hilo "
+"ejecute bytecode de Python a la vez."
+
+#: ../../../culture-medium.rst:286
+msgid "What is CPython?"
+msgstr "¿Qué es CPython?"
+
+#: ../../../culture-medium.rst:295
+msgid "A dialect of C with Python syntax."
+msgstr "Un dialecto de C con sintaxis de Python."
+
+#: ../../../culture-medium.rst:296
+msgid "The reference implementation of Python, written in C."
+msgstr "La implementación de referencia de Python, escrita en C."
+
+#: ../../../culture-medium.rst:297
+msgid "A tool for converting C code to Python."
+msgstr "Una herramienta para convertir código C a Python."
+
+#: ../../../culture-medium.rst:298
+msgid "A Python web framework."
+msgstr "Un framework web de Python."
+
+#: ../../../culture-medium.rst:303
+msgid ""
+"CPython is the reference implementation of Python, written mostly in C. It "
+"is the version most people mean when they say \"Python\"."
+msgstr ""
+"CPython es la implementación de referencia de Python, escrita en su mayor "
+"parte en C. Es la versión a la que se refiere la mayoría de la gente cuando "
+"dice \"Python\"."
+
+#: ../../../culture-medium.rst:307
+msgid "In what year did Guido van Rossum step down as BDFL?"
+msgstr "¿En qué año dejó Guido van Rossum el cargo de BDFL?"
+
+#: ../../../culture-medium.rst:324
+msgid ""
+"Guido stepped down as Benevolent Dictator For Life in 2018, after which "
+"Python adopted a Steering Council governance model."
+msgstr ""
+"Guido dejó el cargo de Benevolent Dictator For Life en 2018, tras lo cual "
+"Python adoptó un modelo de gobernanza basado en un Steering Council."
+
+#: ../../../culture-medium.rst:328
+msgid "What is the purpose of the ``__future__`` module?"
+msgstr "¿Cuál es el propósito del módulo ``__future__``?"
+
+#: ../../../culture-medium.rst:337
+msgid "To schedule code to run later."
+msgstr "Programar código para que se ejecute más tarde."
+
+#: ../../../culture-medium.rst:338
+msgid "To enable features from a newer Python version in current code."
+msgstr ""
+"Habilitar en el código actual funcionalidades de una versión más reciente de"
+" Python."
+
+#: ../../../culture-medium.rst:339
+msgid "To predict the runtime of a function."
+msgstr "Predecir el tiempo de ejecución de una función."
+
+#: ../../../culture-medium.rst:340
+msgid "To roll back to an older Python version."
+msgstr "Volver a una versión anterior de Python."
+
+#: ../../../culture-medium.rst:345
+msgid ""
+"``from __future__ import ...`` lets you opt into behaviors that will become "
+"standard in a later Python version, easing migration."
+msgstr ""
+"``from __future__ import ...`` te permite adoptar comportamientos que serán "
+"estándar en una versión posterior de Python, facilitando la migración."
+
+#: ../../../culture-medium.rst:349
+msgid "In Python jargon, what does \"dunder\" mean?"
+msgstr "En la jerga de Python, ¿qué significa \"dunder\"?"
+
+#: ../../../culture-medium.rst:358
+msgid "Dynamic underscore."
+msgstr "Dynamic underscore (guion bajo dinámico)."
+
+#: ../../../culture-medium.rst:359
+msgid "Double underscore."
+msgstr "Double underscore (doble guion bajo)."
+
+#: ../../../culture-medium.rst:360
+msgid "Duplicated undefined name."
+msgstr "Duplicated undefined name (nombre indefinido duplicado)."
+
+#: ../../../culture-medium.rst:361
+msgid "Deferred under-load."
+msgstr "Deferred under-load (carga diferida)."
+
+#: ../../../culture-medium.rst:366
+msgid ""
+"\"Dunder\" is short for \"double underscore\", as in the ``__init__`` and "
+"``__str__`` special methods written with two underscores on each side."
+msgstr ""
+"\"Dunder\" es la abreviatura de \"double underscore\" (doble guion bajo), "
+"como en los métodos especiales ``__init__`` y ``__str__``, escritos con dos "
+"guiones bajos a cada lado."
+
+#: ../../../culture-medium.rst:370
+msgid "Which Python implementation runs on the Java Virtual Machine?"
+msgstr ""
+"¿Qué implementación de Python se ejecuta sobre la Java Virtual Machine?"
+
+#: ../../../culture-medium.rst:379
+msgid "CPython."
+msgstr "CPython."
+
+#: ../../../culture-medium.rst:380 ../../../culture-medium.rst:402
+msgid "PyPy."
+msgstr "PyPy."
+
+#: ../../../culture-medium.rst:381 ../../../culture-medium.rst:400
+msgid "Jython."
+msgstr "Jython."
+
+#: ../../../culture-medium.rst:382 ../../../culture-medium.rst:401
+msgid "IronPython."
+msgstr "IronPython."
+
+#: ../../../culture-medium.rst:387
+msgid ""
+"Jython is a Python implementation that runs on the Java Virtual Machine and "
+"can interoperate with Java code."
+msgstr ""
+"Jython es una implementación de Python que se ejecuta sobre la Java Virtual "
+"Machine y puede interoperar con código Java."
+
+#: ../../../culture-medium.rst:391
+msgid ""
+"Which alternative Python implementation is known for its just-in-time (JIT) "
+"compiler?"
+msgstr ""
+"¿Qué implementación alternativa de Python es conocida por su compilador "
+"just-in-time (JIT)?"
+
+#: ../../../culture-medium.rst:403
+msgid "MicroPython."
+msgstr "MicroPython."
+
+#: ../../../culture-medium.rst:408
+msgid ""
+"PyPy is an alternative implementation featuring a just-in-time compiler, "
+"which can make many Python programs run significantly faster."
+msgstr ""
+"PyPy es una implementación alternativa que incorpora un compilador just-in-"
+"time, capaz de hacer que muchos programas Python se ejecuten notablemente "
+"más rápido."
+
+#: ../../../culture-medium.rst:412
+msgid "Which line about \"one obvious way\" appears in the Zen of Python?"
+msgstr "¿Qué frase sobre \"una forma obvia\" aparece en el Zen de Python?"
+
+#: ../../../culture-medium.rst:421
+msgid "\"There is always a better way to do it.\""
+msgstr "\"Siempre hay una forma mejor de hacerlo.\""
+
+#: ../../../culture-medium.rst:422
+msgid "\"There should be one-- and preferably only one --obvious way to do it.\""
+msgstr ""
+"\"Debería haber una -y preferiblemente solo una- forma obvia de hacerlo.\""
+
+#: ../../../culture-medium.rst:423
+msgid "\"Any way that works is the right way.\""
+msgstr "\"Cualquier forma que funcione es la correcta.\""
+
+#: ../../../culture-medium.rst:424
+msgid "\"The fastest way is the only way.\""
+msgstr "\"La forma más rápida es la única forma.\""
+
+#: ../../../culture-medium.rst:429
+msgid ""
+"This aphorism captures Python's preference for a single, clear approach -- "
+"often contrasted with Perl's \"there's more than one way to do it\"."
+msgstr ""
+"Este aforismo refleja la preferencia de Python por un único enfoque claro, a"
+" menudo contrastado con el lema de Perl \"hay más de una forma de hacerlo\"."

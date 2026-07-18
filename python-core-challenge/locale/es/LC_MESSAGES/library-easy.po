@@ -1,0 +1,523 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../library-easy.rst:4
+msgid "Library Easy"
+msgstr "Biblioteca fácil"
+
+#: ../../../library-easy.rst:11 ../../../library-easy.rst:38
+#: ../../../library-easy.rst:67 ../../../library-easy.rst:93
+#: ../../../library-easy.rst:119 ../../../library-easy.rst:145
+#: ../../../library-easy.rst:173 ../../../library-easy.rst:203
+#: ../../../library-easy.rst:229 ../../../library-easy.rst:255
+#: ../../../library-easy.rst:281 ../../../library-easy.rst:307
+#: ../../../library-easy.rst:333 ../../../library-easy.rst:358
+#: ../../../library-easy.rst:385 ../../../library-easy.rst:411
+#: ../../../library-easy.rst:438 ../../../library-easy.rst:467
+#: ../../../library-easy.rst:497 ../../../library-easy.rst:523
+msgid "What does this code print?"
+msgstr "¿Qué imprime este código?"
+
+#: ../../../library-easy.rst:25
+msgid "``[('i', 4)]``"
+msgstr "``[('i', 4)]``"
+
+#: ../../../library-easy.rst:26
+msgid "``[('s', 4)]``"
+msgstr "``[('s', 4)]``"
+
+#: ../../../library-easy.rst:27
+msgid "``[('i', 5)]``"
+msgstr "``[('i', 5)]``"
+
+#: ../../../library-easy.rst:28
+msgid "``[('m', 1)]``"
+msgstr "``[('m', 1)]``"
+
+#: ../../../library-easy.rst:31 ../../../library-easy.rst:60
+#: ../../../library-easy.rst:87 ../../../library-easy.rst:113
+#: ../../../library-easy.rst:139 ../../../library-easy.rst:167
+#: ../../../library-easy.rst:196 ../../../library-easy.rst:223
+#: ../../../library-easy.rst:249 ../../../library-easy.rst:275
+#: ../../../library-easy.rst:301 ../../../library-easy.rst:327
+#: ../../../library-easy.rst:353 ../../../library-easy.rst:379
+#: ../../../library-easy.rst:405 ../../../library-easy.rst:431
+#: ../../../library-easy.rst:461 ../../../library-easy.rst:491
+#: ../../../library-easy.rst:517 ../../../library-easy.rst:545
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../../../library-easy.rst:33
+msgid ""
+"``Counter.most_common(1)`` returns the single most frequent element as a "
+"``(value, count)`` pair. Both \"i\" and \"s\" appear 4 times, and ties are "
+"broken by first insertion order, so \"i\" wins."
+msgstr ""
+"``Counter.most_common(1)`` devuelve el único elemento más frecuente como un "
+"par ``(value, count)``. Tanto \"i\" como \"s\" aparecen 4 veces, y los "
+"empates se resuelven por orden de inserción, así que gana \"i\"."
+
+#: ../../../library-easy.rst:54
+msgid "``deque([0, 1, 2, 3])``"
+msgstr "``deque([0, 1, 2, 3])``"
+
+#: ../../../library-easy.rst:55
+msgid "``deque([1, 2, 3, 0])``"
+msgstr "``deque([1, 2, 3, 0])``"
+
+#: ../../../library-easy.rst:56
+msgid "``deque([0, 3, 2, 1])``"
+msgstr "``deque([0, 3, 2, 1])``"
+
+#: ../../../library-easy.rst:57
+msgid "``[0, 1, 2, 3]``"
+msgstr "``[0, 1, 2, 3]``"
+
+#: ../../../library-easy.rst:62
+msgid ""
+"``deque.appendleft`` adds an item at the front in O(1), giving ``deque([0, "
+"1, 2, 3])``. The ``repr`` of a deque includes the ``deque(...)`` wrapper."
+msgstr ""
+"``deque.appendleft`` añade un elemento al principio en O(1), dando "
+"``deque([0, 1, 2, 3])``. El ``repr`` de un deque incluye el envoltorio "
+"``deque(...)``."
+
+#: ../../../library-easy.rst:81
+#, python-brace-format
+msgid "``{\"a\": 1, \"b\": 2}``"
+msgstr "``{\"a\": 1, \"b\": 2}``"
+
+#: ../../../library-easy.rst:82
+#, python-brace-format
+msgid "``{'a': 1, 'b': 2}``"
+msgstr "``{'a': 1, 'b': 2}``"
+
+#: ../../../library-easy.rst:83
+#, python-brace-format
+msgid "``{\"a\":1,\"b\":2}``"
+msgstr "``{\"a\":1,\"b\":2}``"
+
+#: ../../../library-easy.rst:84
+#, python-brace-format
+msgid "``{a: 1, b: 2}``"
+msgstr "``{a: 1, b: 2}``"
+
+#: ../../../library-easy.rst:89
+msgid ""
+"``json.dumps`` always uses double quotes (valid JSON) and, by default, a "
+"space after each ``:`` and ``,``. Python's single-quoted ``repr`` is not "
+"JSON."
+msgstr ""
+"``json.dumps`` siempre usa comillas dobles (JSON válido) y, por defecto, un "
+"espacio tras cada ``:`` y ``,``. El ``repr`` de Python con comillas simples "
+"no es JSON."
+
+#: ../../../library-easy.rst:107 ../../../library-easy.rst:161
+msgid "``3``"
+msgstr "``3``"
+
+#: ../../../library-easy.rst:108
+msgid "``4``"
+msgstr "``4``"
+
+#: ../../../library-easy.rst:109
+msgid "``3.0``"
+msgstr "``3.0``"
+
+#: ../../../library-easy.rst:110
+msgid "``3.7``"
+msgstr "``3.7``"
+
+#: ../../../library-easy.rst:115
+msgid ""
+"``math.floor`` rounds toward negative infinity and returns an ``int``, so "
+"``math.floor(3.7)`` is ``3`` (not ``3.0``)."
+msgstr ""
+"``math.floor`` redondea hacia el infinito negativo y devuelve un ``int``, "
+"así que ``math.floor(3.7)`` es ``3`` (no ``3.0``)."
+
+#: ../../../library-easy.rst:133
+msgid "``home/user/file.txt``"
+msgstr "``home/user/file.txt``"
+
+#: ../../../library-easy.rst:134
+msgid "``home\\user\\file.txt``"
+msgstr "``home\\user\\file.txt``"
+
+#: ../../../library-easy.rst:135
+msgid "``home user file.txt``"
+msgstr "``home user file.txt``"
+
+#: ../../../library-easy.rst:136
+msgid "``['home', 'user', 'file.txt']``"
+msgstr "``['home', 'user', 'file.txt']``"
+
+#: ../../../library-easy.rst:141
+msgid ""
+"``os.path.join`` inserts the platform separator between parts; on POSIX "
+"systems that is ``/``, producing ``home/user/file.txt``."
+msgstr ""
+"``os.path.join`` inserta el separador de la plataforma entre las partes; en "
+"sistemas POSIX es ``/``, produciendo ``home/user/file.txt``."
+
+#: ../../../library-easy.rst:162
+msgid "``12``"
+msgstr "``12``"
+
+#: ../../../library-easy.rst:163
+msgid "``(1, 2)``"
+msgstr "``(1, 2)``"
+
+#: ../../../library-easy.rst:164
+msgid "``Point(x=1, y=2)``"
+msgstr "``Point(x=1, y=2)``"
+
+#: ../../../library-easy.rst:169
+msgid ""
+"A ``namedtuple`` gives fields named access. ``p.x`` is ``1`` and ``p.y`` is "
+"``2``, so ``p.x + p.y`` is ``3``."
+msgstr ""
+"Una ``namedtuple`` da acceso a los campos por nombre. ``p.x`` es ``1`` y "
+"``p.y`` es ``2``, así que ``p.x + p.y`` es ``3``."
+
+#: ../../../library-easy.rst:190
+msgid "``2``"
+msgstr "``2``"
+
+#: ../../../library-easy.rst:191 ../../../library-easy.rst:455
+msgid "``1``"
+msgstr "``1``"
+
+#: ../../../library-easy.rst:192 ../../../library-easy.rst:458
+msgid "``0``"
+msgstr "``0``"
+
+#: ../../../library-easy.rst:193
+msgid "raises ``KeyError``"
+msgstr "lanza ``KeyError``"
+
+#: ../../../library-easy.rst:198
+msgid ""
+"``defaultdict(int)`` supplies ``0`` for a missing key, so the first ``+= 1``"
+" starts from ``0``. After two increments ``d[\"a\"]`` is ``2`` and no "
+"``KeyError`` is raised."
+msgstr ""
+"``defaultdict(int)`` proporciona ``0`` para una clave inexistente, así que "
+"el primer ``+= 1`` empieza desde ``0``. Tras dos incrementos ``d[\"a\"]`` es"
+" ``2`` y no se lanza ningún ``KeyError``."
+
+#: ../../../library-easy.rst:217 ../../../library-easy.rst:245
+#: ../../../library-easy.rst:540
+msgid "``[1, 2, 3, 4]``"
+msgstr "``[1, 2, 3, 4]``"
+
+#: ../../../library-easy.rst:218
+msgid "``[[1, 2], [3, 4]]``"
+msgstr "``[[1, 2], [3, 4]]``"
+
+#: ../../../library-easy.rst:219
+msgid "``[1, 3, 2, 4]``"
+msgstr "``[1, 3, 2, 4]``"
+
+#: ../../../library-easy.rst:220
+msgid "``[(1, 3), (2, 4)]``"
+msgstr "``[(1, 3), (2, 4)]``"
+
+#: ../../../library-easy.rst:225
+msgid ""
+"``itertools.chain`` flattens one level: it yields the items of each iterable"
+" in turn, giving ``[1, 2, 3, 4]``."
+msgstr ""
+"``itertools.chain`` aplana un nivel: produce los elementos de cada iterable "
+"por turno, dando ``[1, 2, 3, 4]``."
+
+#: ../../../library-easy.rst:243
+msgid "``10``"
+msgstr "``10``"
+
+#: ../../../library-easy.rst:244
+msgid "``24``"
+msgstr "``24``"
+
+#: ../../../library-easy.rst:246
+msgid "``1234``"
+msgstr "``1234``"
+
+#: ../../../library-easy.rst:251
+msgid ""
+"``reduce`` folds the function across the list left to right: ``((1+2)+3)+4``"
+" equals ``10``."
+msgstr ""
+"``reduce`` pliega la función sobre la lista de izquierda a derecha: "
+"``((1+2)+3)+4`` es igual a ``10``."
+
+#: ../../../library-easy.rst:269
+msgid "``2020-02-01``"
+msgstr "``2020-02-01``"
+
+#: ../../../library-easy.rst:270
+msgid "``2020-01-32``"
+msgstr "``2020-01-32``"
+
+#: ../../../library-easy.rst:271
+msgid "``2020-02-31``"
+msgstr "``2020-02-31``"
+
+#: ../../../library-easy.rst:272
+msgid "``2020-01-31``"
+msgstr "``2020-01-31``"
+
+#: ../../../library-easy.rst:277
+msgid ""
+"January has 31 days, so adding a 31-day ``timedelta`` to Jan 1 lands on Feb "
+"1, printed in ISO format as ``2020-02-01``."
+msgstr ""
+"Enero tiene 31 días, así que sumar un ``timedelta`` de 31 días al 1 de enero"
+" cae en el 1 de febrero, impreso en formato ISO como ``2020-02-01``."
+
+#: ../../../library-easy.rst:295
+msgid "``['1', '22', '333']``"
+msgstr "``['1', '22', '333']``"
+
+#: ../../../library-easy.rst:296
+msgid "``['1', '2', '3']``"
+msgstr "``['1', '2', '3']``"
+
+#: ../../../library-easy.rst:297
+msgid "``[1, 22, 333]``"
+msgstr "``[1, 22, 333]``"
+
+#: ../../../library-easy.rst:298
+msgid "``['123']``"
+msgstr "``['123']``"
+
+#: ../../../library-easy.rst:303
+msgid ""
+"``\\d+`` matches maximal runs of digits, and ``re.findall`` returns them as "
+"a list of strings: ``['1', '22', '333']``."
+msgstr ""
+"``\\d+`` coincide con las secuencias maximales de dígitos, y ``re.findall`` "
+"las devuelve como una lista de cadenas: ``['1', '22', '333']``."
+
+#: ../../../library-easy.rst:321
+msgid "``abcde``"
+msgstr "``abcde``"
+
+#: ../../../library-easy.rst:322
+msgid "``ABCDE``"
+msgstr "``ABCDE``"
+
+#: ../../../library-easy.rst:323
+msgid "``['a', 'b', 'c', 'd', 'e']``"
+msgstr "``['a', 'b', 'c', 'd', 'e']``"
+
+#: ../../../library-easy.rst:324
+msgid "``abcdef``"
+msgstr "``abcdef``"
+
+#: ../../../library-easy.rst:329
+msgid ""
+"``string.ascii_lowercase`` is the string ``\"abcdefghijklmnopqrstuvwxyz\"``;"
+" slicing ``[:5]`` returns its first five characters, ``\"abcde\"``."
+msgstr ""
+"``string.ascii_lowercase`` es la cadena ``\"abcdefghijklmnopqrstuvwxyz\"``; "
+"el rebanado ``[:5]`` devuelve sus primeros cinco caracteres, ``\"abcde\"``."
+
+#: ../../../library-easy.rst:347
+msgid "``120``"
+msgstr "``120``"
+
+#: ../../../library-easy.rst:348
+msgid "``25``"
+msgstr "``25``"
+
+#: ../../../library-easy.rst:349
+msgid "``15``"
+msgstr "``15``"
+
+#: ../../../library-easy.rst:350
+msgid "``720``"
+msgstr "``720``"
+
+#: ../../../library-easy.rst:355
+msgid "``math.factorial(5)`` is ``5 * 4 * 3 * 2 * 1`` which equals ``120``."
+msgstr ""
+"``math.factorial(5)`` es ``5 * 4 * 3 * 2 * 1``, que es igual a ``120``."
+
+#: ../../../library-easy.rst:373
+msgid "``['a', 'a', 'b']``"
+msgstr "``['a', 'a', 'b']``"
+
+#: ../../../library-easy.rst:374
+msgid "``['a', 'b']``"
+msgstr "``['a', 'b']``"
+
+#: ../../../library-easy.rst:375
+msgid "``['a', 'b', 'b']``"
+msgstr "``['a', 'b', 'b']``"
+
+#: ../../../library-easy.rst:376
+msgid "``[('a', 2), ('b', 1)]``"
+msgstr "``[('a', 2), ('b', 1)]``"
+
+#: ../../../library-easy.rst:381
+msgid ""
+"``Counter.elements()`` yields each element as many times as its count, so it"
+" produces ``a``, ``a``, ``b``; sorted, that is ``['a', 'a', 'b']``."
+msgstr ""
+"``Counter.elements()`` produce cada elemento tantas veces como su recuento, "
+"así que produce ``a``, ``a``, ``b``; ordenado, eso es ``['a', 'a', 'b']``."
+
+#: ../../../library-easy.rst:399
+msgid "``5/6``"
+msgstr "``5/6``"
+
+#: ../../../library-easy.rst:400
+msgid "``2/5``"
+msgstr "``2/5``"
+
+#: ../../../library-easy.rst:401
+msgid "``1/6``"
+msgstr "``1/6``"
+
+#: ../../../library-easy.rst:402
+msgid "``0.8333333333333334``"
+msgstr "``0.8333333333333334``"
+
+#: ../../../library-easy.rst:407
+msgid ""
+"``Fraction`` does exact rational arithmetic: ``1/2 + 1/3 = 3/6 + 2/6 = "
+"5/6``, automatically reduced to lowest terms."
+msgstr ""
+"``Fraction`` hace aritmética racional exacta: ``1/2 + 1/3 = 3/6 + 2/6 = "
+"5/6``, reducida automáticamente a su mínima expresión."
+
+#: ../../../library-easy.rst:425
+msgid "``0.3``"
+msgstr "``0.3``"
+
+#: ../../../library-easy.rst:426
+msgid "``0.30000000000000004``"
+msgstr "``0.30000000000000004``"
+
+#: ../../../library-easy.rst:427
+msgid "``0.30``"
+msgstr "``0.30``"
+
+#: ../../../library-easy.rst:428
+msgid "``0.6``"
+msgstr "``0.6``"
+
+#: ../../../library-easy.rst:433
+msgid ""
+"``Decimal`` built from strings avoids binary floating-point error, so "
+"``Decimal(\"0.1\") + Decimal(\"0.2\")`` is exactly ``0.3`` (unlike ``0.1 + "
+"0.2`` with floats)."
+msgstr ""
+"``Decimal`` construido a partir de cadenas evita el error del punto flotante"
+" binario, así que ``Decimal(\"0.1\") + Decimal(\"0.2\")`` es exactamente "
+"``0.3`` (a diferencia de ``0.1 + 0.2`` con floats)."
+
+#: ../../../library-easy.rst:456
+msgid "``Color.RED``"
+msgstr "``Color.RED``"
+
+#: ../../../library-easy.rst:457
+msgid "``RED``"
+msgstr "``RED``"
+
+#: ../../../library-easy.rst:463
+msgid ""
+"``.value`` returns the value assigned to an enum member, which is ``1`` for "
+"``Color.RED``. The member's ``.name`` would be ``'RED'``."
+msgstr ""
+"``.value`` devuelve el valor asignado a un miembro del enum, que es ``1`` "
+"para ``Color.RED``. El ``.name`` del miembro sería ``'RED'``."
+
+#: ../../../library-easy.rst:485
+msgid "``P(x=1, y=2)``"
+msgstr "``P(x=1, y=2)``"
+
+#: ../../../library-easy.rst:486
+msgid "``P(1, 2)``"
+msgstr "``P(1, 2)``"
+
+#: ../../../library-easy.rst:487
+msgid "``<__main__.P object at 0x...>``"
+msgstr "``<__main__.P object at 0x...>``"
+
+#: ../../../library-easy.rst:488
+#, python-brace-format
+msgid "``{'x': 1, 'y': 2}``"
+msgstr "``{'x': 1, 'y': 2}``"
+
+#: ../../../library-easy.rst:493
+msgid ""
+"``@dataclass`` auto-generates a ``__repr__`` showing the class name and each"
+" field as ``name=value``, producing ``P(x=1, y=2)``."
+msgstr ""
+"``@dataclass`` autogenera un ``__repr__`` que muestra el nombre de la clase "
+"y cada campo como ``name=value``, produciendo ``P(x=1, y=2)``."
+
+#: ../../../library-easy.rst:511
+msgid "``.gz``"
+msgstr "``.gz``"
+
+#: ../../../library-easy.rst:512
+msgid "``.tar.gz``"
+msgstr "``.tar.gz``"
+
+#: ../../../library-easy.rst:513
+msgid "``.tar``"
+msgstr "``.tar``"
+
+#: ../../../library-easy.rst:514
+msgid "``gz``"
+msgstr "``gz``"
+
+#: ../../../library-easy.rst:519
+msgid ""
+"``.suffix`` returns only the last extension, including the dot: ``.gz``. Use"
+" ``.suffixes`` to get ``['.tar', '.gz']``."
+msgstr ""
+"``.suffix`` devuelve solo la última extensión, incluido el punto: ``.gz``. "
+"Usa ``.suffixes`` para obtener ``['.tar', '.gz']``."
+
+#: ../../../library-easy.rst:539
+msgid "``[1, 2, 3]``"
+msgstr "``[1, 2, 3]``"
+
+#: ../../../library-easy.rst:541
+msgid "``[4, 1, 2, 3]``"
+msgstr "``[4, 1, 2, 3]``"
+
+#: ../../../library-easy.rst:542
+msgid "``[1, 2, 3, 4, 4]``"
+msgstr "``[1, 2, 3, 4, 4]``"
+
+#: ../../../library-easy.rst:547
+msgid ""
+"``list.copy()`` makes a new (shallow) list, so appending to ``b`` does not "
+"affect ``a``. ``a`` stays ``[1, 2, 3]``."
+msgstr ""
+"``list.copy()`` crea una nueva lista (copia superficial), así que añadir a "
+"``b`` no afecta a ``a``. ``a`` sigue siendo ``[1, 2, 3]``."

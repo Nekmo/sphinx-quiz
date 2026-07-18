@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../builtins-medium.rst:4
+msgid "Builtins Medium"
+msgstr "Funciones incorporadas intermedio"
+
+#: ../../../builtins-medium.rst:11 ../../../builtins-medium.rst:36
+#: ../../../builtins-medium.rst:61 ../../../builtins-medium.rst:87
+#: ../../../builtins-medium.rst:112 ../../../builtins-medium.rst:137
+#: ../../../builtins-medium.rst:161 ../../../builtins-medium.rst:185
+#: ../../../builtins-medium.rst:210 ../../../builtins-medium.rst:235
+#: ../../../builtins-medium.rst:260 ../../../builtins-medium.rst:285
+#: ../../../builtins-medium.rst:310 ../../../builtins-medium.rst:335
+#: ../../../builtins-medium.rst:360 ../../../builtins-medium.rst:385
+#: ../../../builtins-medium.rst:411 ../../../builtins-medium.rst:435
+#: ../../../builtins-medium.rst:460 ../../../builtins-medium.rst:485
+msgid "What does this code print?"
+msgstr "¿Qué imprime este código?"
+
+#: ../../../builtins-medium.rst:24
+msgid "``['a', 'ccc', 'bb']``"
+msgstr "``['a', 'ccc', 'bb']``"
+
+#: ../../../builtins-medium.rst:25
+msgid "``['a', 'bb', 'ccc']``"
+msgstr "``['a', 'bb', 'ccc']``"
+
+#: ../../../builtins-medium.rst:26
+msgid "``['bb', 'a', 'ccc']``"
+msgstr "``['bb', 'a', 'ccc']``"
+
+#: ../../../builtins-medium.rst:27
+msgid "``['ccc', 'bb', 'a']``"
+msgstr "``['ccc', 'bb', 'a']``"
+
+#: ../../../builtins-medium.rst:30 ../../../builtins-medium.rst:55
+#: ../../../builtins-medium.rst:80 ../../../builtins-medium.rst:106
+#: ../../../builtins-medium.rst:131 ../../../builtins-medium.rst:156
+#: ../../../builtins-medium.rst:180 ../../../builtins-medium.rst:204
+#: ../../../builtins-medium.rst:229 ../../../builtins-medium.rst:254
+#: ../../../builtins-medium.rst:279 ../../../builtins-medium.rst:304
+#: ../../../builtins-medium.rst:329 ../../../builtins-medium.rst:354
+#: ../../../builtins-medium.rst:379 ../../../builtins-medium.rst:404
+#: ../../../builtins-medium.rst:430 ../../../builtins-medium.rst:454
+#: ../../../builtins-medium.rst:479 ../../../builtins-medium.rst:504
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../../../builtins-medium.rst:32
+msgid ""
+"With ``key=len`` the items are ordered by their length (1, 2, 3), not "
+"alphabetically."
+msgstr ""
+"Con ``key=len`` los elementos se ordenan por su longitud (1, 2, 3), no "
+"alfabéticamente."
+
+#: ../../../builtins-medium.rst:49 ../../../builtins-medium.rst:153
+#: ../../../builtins-medium.rst:249
+msgid "``2``"
+msgstr "``2``"
+
+#: ../../../builtins-medium.rst:50 ../../../builtins-medium.rst:101
+#: ../../../builtins-medium.rst:250 ../../../builtins-medium.rst:273
+#: ../../../builtins-medium.rst:499
+msgid "``3``"
+msgstr "``3``"
+
+#: ../../../builtins-medium.rst:51
+msgid "``2.5``"
+msgstr "``2.5``"
+
+#: ../../../builtins-medium.rst:52
+msgid "``2.0``"
+msgstr "``2.0``"
+
+#: ../../../builtins-medium.rst:57
+msgid ""
+"Python uses *banker's rounding* (round half to even). ``2.5`` sits between "
+"``2`` and ``3``; the even neighbour ``2`` wins."
+msgstr ""
+"Python usa el *redondeo bancario* (redondeo al par más cercano). ``2.5`` "
+"está entre ``2`` y ``3``; gana el vecino par ``2``."
+
+#: ../../../builtins-medium.rst:74
+msgid "``apple``"
+msgstr "``apple``"
+
+#: ../../../builtins-medium.rst:75
+msgid "``ab``"
+msgstr "``ab``"
+
+#: ../../../builtins-medium.rst:76 ../../../builtins-medium.rst:152
+msgid "``5``"
+msgstr "``5``"
+
+#: ../../../builtins-medium.rst:77 ../../../builtins-medium.rst:427
+msgid "``b``"
+msgstr "``b``"
+
+#: ../../../builtins-medium.rst:82
+msgid ""
+"With two positional arguments ``max`` compares them directly. Strings "
+"compare lexicographically, and ``'b' > 'a'``, so ``'b'`` is the larger — "
+"length is irrelevant."
+msgstr ""
+"Con dos argumentos posicionales, ``max`` los compara directamente. Las "
+"cadenas se comparan lexicográficamente, y ``'b' > 'a'``, así que ``'b'`` es "
+"el mayor — la longitud es irrelevante."
+
+#: ../../../builtins-medium.rst:100
+msgid "``[[1], [2]]``"
+msgstr "``[[1], [2]]``"
+
+#: ../../../builtins-medium.rst:102
+msgid "``[1, 2]``"
+msgstr "``[1, 2]``"
+
+#: ../../../builtins-medium.rst:103 ../../../builtins-medium.rst:248
+msgid "``TypeError``"
+msgstr "``TypeError``"
+
+#: ../../../builtins-medium.rst:108
+msgid ""
+"The start value ``[]`` makes ``sum`` use list ``+``, concatenating the inner"
+" lists into ``[1, 2]``."
+msgstr ""
+"El valor inicial ``[]`` hace que ``sum`` use el ``+`` de listas, "
+"concatenando las listas internas en ``[1, 2]``."
+
+#: ../../../builtins-medium.rst:125 ../../../builtins-medium.rst:251
+#: ../../../builtins-medium.rst:448
+msgid "``True``"
+msgstr "``True``"
+
+#: ../../../builtins-medium.rst:126 ../../../builtins-medium.rst:449
+msgid "``False``"
+msgstr "``False``"
+
+#: ../../../builtins-medium.rst:127
+msgid "``'False'``"
+msgstr "``'False'``"
+
+#: ../../../builtins-medium.rst:128 ../../../builtins-medium.rst:177
+#: ../../../builtins-medium.rst:323
+msgid "``ValueError``"
+msgstr "``ValueError``"
+
+#: ../../../builtins-medium.rst:133
+msgid ""
+"``bool`` on a string is about emptiness, not content. Any non-empty string "
+"is truthy, so ``\"False\"`` becomes ``True``."
+msgstr ""
+"``bool`` sobre una cadena depende de si está vacía, no de su contenido. "
+"Cualquier cadena no vacía tiene valor de verdad verdadero, así que "
+"``\"False\"`` se convierte en ``True``."
+
+#: ../../../builtins-medium.rst:150
+msgid "``10``"
+msgstr "``10``"
+
+#: ../../../builtins-medium.rst:151
+msgid "``10.0``"
+msgstr "``10.0``"
+
+#: ../../../builtins-medium.rst:158
+msgid ""
+"The second argument is the base. ``\"10\"`` in base 2 equals decimal ``2``."
+msgstr ""
+"El segundo argumento es la base. ``\"10\"`` en base 2 equivale al decimal "
+"``2``."
+
+#: ../../../builtins-medium.rst:174
+msgid "``[(1, 'a'), (2, 'b'), (3, None)]``"
+msgstr "``[(1, 'a'), (2, 'b'), (3, None)]``"
+
+#: ../../../builtins-medium.rst:175 ../../../builtins-medium.rst:375
+msgid "``[(1, 'a'), (2, 'b')]``"
+msgstr "``[(1, 'a'), (2, 'b')]``"
+
+#: ../../../builtins-medium.rst:176
+msgid "``[(1, 2, 3), ('a', 'b')]``"
+msgstr "``[(1, 2, 3), ('a', 'b')]``"
+
+#: ../../../builtins-medium.rst:182
+msgid ""
+"``zip`` stops at the shortest iterable, so the trailing ``3`` is dropped."
+msgstr ""
+"``zip`` se detiene en el iterable más corto, así que el ``3`` final se "
+"descarta."
+
+#: ../../../builtins-medium.rst:198
+msgid "``[0, 0]``"
+msgstr "``[0, 0]``"
+
+#: ../../../builtins-medium.rst:199
+msgid "``[0, 1, 2, 0, 3]``"
+msgstr "``[0, 1, 2, 0, 3]``"
+
+#: ../../../builtins-medium.rst:200 ../../../builtins-medium.rst:348
+msgid "``[1, 2, 3]``"
+msgstr "``[1, 2, 3]``"
+
+#: ../../../builtins-medium.rst:201
+msgid "``[None, 1, 2, None, 3]``"
+msgstr "``[None, 1, 2, None, 3]``"
+
+#: ../../../builtins-medium.rst:206
+msgid ""
+"Passing ``None`` as the function makes ``filter`` keep only truthy items, "
+"dropping the two ``0`` values."
+msgstr ""
+"Pasar ``None`` como función hace que ``filter`` conserve solo los elementos "
+"con valor de verdad verdadero, descartando los dos valores ``0``."
+
+#: ../../../builtins-medium.rst:223
+msgid "``['10', '2', '9']``"
+msgstr "``['10', '2', '9']``"
+
+#: ../../../builtins-medium.rst:224
+msgid "``['2', '9', '10']``"
+msgstr "``['2', '9', '10']``"
+
+#: ../../../builtins-medium.rst:225
+msgid "``['2', '10', '9']``"
+msgstr "``['2', '10', '9']``"
+
+#: ../../../builtins-medium.rst:226
+msgid "``['9', '2', '10']``"
+msgstr "``['9', '2', '10']``"
+
+#: ../../../builtins-medium.rst:231
+msgid ""
+"These are *strings*, so they sort character by character: ``'1' < '2' < "
+"'9'``. ``\"10\"`` comes first because its first character ``'1'`` is "
+"smallest."
+msgstr ""
+"Estas son *cadenas*, así que se ordenan carácter por carácter: ``'1' < '2' <"
+" '9'``. ``\"10\"`` va primero porque su primer carácter ``'1'`` es el menor."
+
+#: ../../../builtins-medium.rst:256
+msgid ""
+"``bool`` is a subclass of ``int``: ``True == 1`` and ``False == 0``, so the "
+"sum is ``2``."
+msgstr ""
+"``bool`` es una subclase de ``int``: ``True == 1`` y ``False == 0``, así que"
+" la suma es ``2``."
+
+#: ../../../builtins-medium.rst:274
+msgid "``4``"
+msgstr "``4``"
+
+#: ../../../builtins-medium.rst:275
+msgid "``3.99``"
+msgstr "``3.99``"
+
+#: ../../../builtins-medium.rst:276
+msgid "``3.0``"
+msgstr "``3.0``"
+
+#: ../../../builtins-medium.rst:281
+msgid ""
+"``int`` on a float truncates toward zero (it does not round), so ``3.99`` "
+"becomes ``3``."
+msgstr ""
+"``int`` sobre un flotante trunca hacia cero (no redondea), así que ``3.99`` "
+"se convierte en ``3``."
+
+#: ../../../builtins-medium.rst:298
+msgid "``[10, 8, 6, 4, 2, 0]``"
+msgstr "``[10, 8, 6, 4, 2, 0]``"
+
+#: ../../../builtins-medium.rst:299
+msgid "``[8, 6, 4, 2, 0]``"
+msgstr "``[8, 6, 4, 2, 0]``"
+
+#: ../../../builtins-medium.rst:300
+msgid "``[10, 8, 6, 4, 2, 1]``"
+msgstr "``[10, 8, 6, 4, 2, 1]``"
+
+#: ../../../builtins-medium.rst:301
+msgid "``[10, 8, 6, 4, 2]``"
+msgstr "``[10, 8, 6, 4, 2]``"
+
+#: ../../../builtins-medium.rst:306
+msgid ""
+"``range`` counts down by 2 from ``10`` and stops *before* the stop value "
+"``0``, so ``0`` is not included."
+msgstr ""
+"``range`` cuenta hacia atrás de 2 en 2 desde ``10`` y se detiene *antes* del"
+" valor de parada ``0``, así que ``0`` no se incluye."
+
+#: ../../../builtins-medium.rst:324
+msgid "``99``"
+msgstr "``99``"
+
+#: ../../../builtins-medium.rst:325
+msgid "``None``"
+msgstr "``None``"
+
+#: ../../../builtins-medium.rst:326
+msgid "``0``"
+msgstr "``0``"
+
+#: ../../../builtins-medium.rst:331
+msgid ""
+"``min`` of an empty iterable normally raises ``ValueError``, but the "
+"``default`` keyword supplies a fallback instead."
+msgstr ""
+"``min`` de un iterable vacío normalmente lanza ``ValueError``, pero el "
+"argumento ``default`` proporciona un valor de reserva en su lugar."
+
+#: ../../../builtins-medium.rst:349
+msgid "``'123'``"
+msgstr "``'123'``"
+
+#: ../../../builtins-medium.rst:350
+msgid "``['1', '2', '3']``"
+msgstr "``['1', '2', '3']``"
+
+#: ../../../builtins-medium.rst:351
+msgid "``[str, str, str]``"
+msgstr "``[str, str, str]``"
+
+#: ../../../builtins-medium.rst:356
+msgid ""
+"``map`` applies ``str`` to each item, converting every number to its string "
+"form."
+msgstr ""
+"``map`` aplica ``str`` a cada elemento, convirtiendo cada número a su forma "
+"de cadena."
+
+#: ../../../builtins-medium.rst:373
+msgid "``[(0, 'a'), (1, 'b')]``"
+msgstr "``[(0, 'a'), (1, 'b')]``"
+
+#: ../../../builtins-medium.rst:374
+msgid "``[(1, 'a'), (1, 'b')]``"
+msgstr "``[(1, 'a'), (1, 'b')]``"
+
+#: ../../../builtins-medium.rst:376
+msgid "``[('a', 1), ('b', 2)]``"
+msgstr "``[('a', 1), ('b', 2)]``"
+
+#: ../../../builtins-medium.rst:381
+msgid ""
+"The ``start`` argument sets the first counter value, so numbering begins at "
+"``1``."
+msgstr ""
+"El argumento ``start`` fija el primer valor del contador, así que la "
+"numeración empieza en ``1``."
+
+#: ../../../builtins-medium.rst:398
+msgid "``banana``"
+msgstr "``banana``"
+
+#: ../../../builtins-medium.rst:399
+msgid "``aaabnn``"
+msgstr "``aaabnn``"
+
+#: ../../../builtins-medium.rst:400
+msgid "``abn``"
+msgstr "``abn``"
+
+#: ../../../builtins-medium.rst:401
+msgid "``nnbaaa``"
+msgstr "``nnbaaa``"
+
+#: ../../../builtins-medium.rst:406
+msgid ""
+"``sorted(\"banana\")`` orders the characters into ``['a', 'a', 'a', 'b', "
+"'n', 'n']``, which ``\"\".join`` glues back into a string."
+msgstr ""
+"``sorted(\"banana\")`` ordena los caracteres en ``['a', 'a', 'a', 'b', 'n', "
+"'n']``, que ``\"\".join`` vuelve a unir en una cadena."
+
+#: ../../../builtins-medium.rst:424
+msgid "``98``"
+msgstr "``98``"
+
+#: ../../../builtins-medium.rst:425
+msgid "``a``"
+msgstr "``a``"
+
+#: ../../../builtins-medium.rst:426
+msgid "``c``"
+msgstr "``c``"
+
+#: ../../../builtins-medium.rst:432
+msgid ""
+"``ord('a')`` is ``97``; adding ``1`` gives ``98``; ``chr(98)`` is ``'b'``."
+msgstr ""
+"``ord('a')`` es ``97``; sumar ``1`` da ``98``; ``chr(98)`` es ``'b'``."
+
+#: ../../../builtins-medium.rst:450
+msgid "``' '``"
+msgstr "``' '``"
+
+#: ../../../builtins-medium.rst:451 ../../../builtins-medium.rst:498
+msgid "``1``"
+msgstr "``1``"
+
+#: ../../../builtins-medium.rst:456
+msgid ""
+"A string containing a single space is *not empty*, so it is truthy — "
+"whitespace still counts as content."
+msgstr ""
+"Una cadena que contiene un único espacio *no está vacía*, así que tiene "
+"valor de verdad verdadero — los espacios en blanco también cuentan como "
+"contenido."
+
+#: ../../../builtins-medium.rst:473
+msgid "``(-3, -1)``"
+msgstr "``(-3, -1)``"
+
+#: ../../../builtins-medium.rst:474
+msgid "``(-3, 1)``"
+msgstr "``(-3, 1)``"
+
+#: ../../../builtins-medium.rst:475
+msgid "``(-4, 1)``"
+msgstr "``(-4, 1)``"
+
+#: ../../../builtins-medium.rst:476
+msgid "``(-4, -1)``"
+msgstr "``(-4, -1)``"
+
+#: ../../../builtins-medium.rst:481
+msgid ""
+"Floor division rounds toward negative infinity: ``-7 // 2 == -4`` and ``-7 %"
+" 2 == 1`` (the remainder takes the sign of the divisor)."
+msgstr ""
+"La división entera redondea hacia menos infinito: ``-7 // 2 == -4`` y ``-7 %"
+" 2 == 1`` (el resto toma el signo del divisor)."
+
+#: ../../../builtins-medium.rst:500
+msgid "``-1``"
+msgstr "``-1``"
+
+#: ../../../builtins-medium.rst:501
+msgid "``-3``"
+msgstr "``-3``"
+
+#: ../../../builtins-medium.rst:506
+msgid ""
+"The ``key`` negates each value, so the item with the largest key (``-1`` "
+"from ``1``) wins. ``max`` returns the original item ``1``, not the key."
+msgstr ""
+"La ``key`` niega cada valor, así que gana el elemento con la clave mayor "
+"(``-1`` a partir de ``1``). ``max`` devuelve el elemento original ``1``, no "
+"la clave."

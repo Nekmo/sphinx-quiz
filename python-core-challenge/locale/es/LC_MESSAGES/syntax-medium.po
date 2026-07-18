@@ -1,0 +1,482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Nekmo
+# This file is distributed under the same license as the Python Core
+# Challenge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Core Challenge\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../../syntax-medium.rst:4
+msgid "Syntax Medium"
+msgstr "Sintaxis media"
+
+#: ../../../syntax-medium.rst:11 ../../../syntax-medium.rst:95
+#: ../../../syntax-medium.rst:182 ../../../syntax-medium.rst:266
+#: ../../../syntax-medium.rst:347 ../../../syntax-medium.rst:435
+#: ../../../syntax-medium.rst:517
+msgid "What does this code print?"
+msgstr "¿Qué imprime este código?"
+
+#: ../../../syntax-medium.rst:29
+msgid "``[2]``"
+msgstr "``[2]``"
+
+#: ../../../syntax-medium.rst:30 ../../../syntax-medium.rst:140
+#: ../../../syntax-medium.rst:170
+msgid "``[1, 2]``"
+msgstr "``[1, 2]``"
+
+#: ../../../syntax-medium.rst:31 ../../../syntax-medium.rst:394
+msgid "``[1]``"
+msgstr "``[1]``"
+
+#: ../../../syntax-medium.rst:32
+msgid "``[2, 1]``"
+msgstr "``[2, 1]``"
+
+#: ../../../syntax-medium.rst:35 ../../../syntax-medium.rst:62
+#: ../../../syntax-medium.rst:88 ../../../syntax-medium.rst:117
+#: ../../../syntax-medium.rst:146 ../../../syntax-medium.rst:175
+#: ../../../syntax-medium.rst:207 ../../../syntax-medium.rst:234
+#: ../../../syntax-medium.rst:260 ../../../syntax-medium.rst:287
+#: ../../../syntax-medium.rst:315 ../../../syntax-medium.rst:341
+#: ../../../syntax-medium.rst:366 ../../../syntax-medium.rst:400
+#: ../../../syntax-medium.rst:428 ../../../syntax-medium.rst:455
+#: ../../../syntax-medium.rst:484 ../../../syntax-medium.rst:510
+#: ../../../syntax-medium.rst:536 ../../../syntax-medium.rst:564
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../../../syntax-medium.rst:37
+msgid ""
+"A default argument is evaluated once, when the function is defined, and the "
+"same list object is reused on every call. The first call appends ``1`` and "
+"the second appends ``2`` to that same list, so it prints ``[1, 2]``."
+msgstr ""
+"Un argumento por defecto se evalúa una vez, cuando se define la función, y "
+"el mismo objeto lista se reutiliza en cada llamada. La primera llamada añade"
+" ``1`` y la segunda añade ``2`` a esa misma lista, así que imprime ``[1, "
+"2]``."
+
+#: ../../../syntax-medium.rst:42 ../../../syntax-medium.rst:124
+#: ../../../syntax-medium.rst:214 ../../../syntax-medium.rst:294
+#: ../../../syntax-medium.rst:372 ../../../syntax-medium.rst:462
+#: ../../../syntax-medium.rst:542
+msgid "What is the output?"
+msgstr "¿Cuál es la salida?"
+
+#: ../../../syntax-medium.rst:56 ../../../syntax-medium.rst:424
+msgid "``[0, 1, 2]``"
+msgstr "``[0, 1, 2]``"
+
+#: ../../../syntax-medium.rst:57
+msgid "``[2, 2, 2]``"
+msgstr "``[2, 2, 2]``"
+
+#: ../../../syntax-medium.rst:58
+msgid "``[0, 0, 0]``"
+msgstr "``[0, 0, 0]``"
+
+#: ../../../syntax-medium.rst:59
+msgid "``[3, 3, 3]``"
+msgstr "``[3, 3, 3]``"
+
+#: ../../../syntax-medium.rst:64
+msgid ""
+"Closures capture the variable ``i``, not its value at creation time (late "
+"binding). All three lambdas share the same ``i``, which is ``2`` once the "
+"comprehension finishes, so every call returns ``2``."
+msgstr ""
+"Los cierres capturan la variable ``i``, no su valor en el momento de la "
+"creación (vinculación tardía). Las tres lambdas comparten la misma ``i``, "
+"que es ``2`` una vez que termina la comprensión, así que cada llamada "
+"devuelve ``2``."
+
+#: ../../../syntax-medium.rst:69 ../../../syntax-medium.rst:153
+#: ../../../syntax-medium.rst:241 ../../../syntax-medium.rst:322
+#: ../../../syntax-medium.rst:407 ../../../syntax-medium.rst:490
+msgid "What does this print?"
+msgstr "¿Qué imprime esto?"
+
+#: ../../../syntax-medium.rst:82 ../../../syntax-medium.rst:257
+msgid "``True``"
+msgstr "``True``"
+
+#: ../../../syntax-medium.rst:83
+msgid "``False``"
+msgstr "``False``"
+
+#: ../../../syntax-medium.rst:84
+msgid "``[False]``"
+msgstr "``[False]``"
+
+#: ../../../syntax-medium.rst:85 ../../../syntax-medium.rst:480
+#: ../../../syntax-medium.rst:533 ../../../syntax-medium.rst:561
+msgid "``TypeError``"
+msgstr "``TypeError``"
+
+#: ../../../syntax-medium.rst:90
+msgid ""
+"This is a chained comparison, so it expands to ``(False == False) and (False"
+" in [False])``. Both parts are true, so the whole expression is ``True``."
+msgstr ""
+"Esto es una comparación encadenada, así que se expande a ``(False == False) "
+"and (False in [False])``. Ambas partes son verdaderas, así que toda la "
+"expresión es ``True``."
+
+#: ../../../syntax-medium.rst:111
+msgid "``[5, 2, 3]``"
+msgstr "``[5, 2, 3]``"
+
+#: ../../../syntax-medium.rst:112
+msgid "``[1, 5, 3]``"
+msgstr "``[1, 5, 3]``"
+
+#: ../../../syntax-medium.rst:113
+msgid "``[1, 2, 5]``"
+msgstr "``[1, 2, 5]``"
+
+#: ../../../syntax-medium.rst:114
+msgid "``[5, 5, 3]``"
+msgstr "``[5, 5, 3]``"
+
+#: ../../../syntax-medium.rst:119
+msgid ""
+"The right-hand side ``(1, 5)`` is evaluated first, then targets are assigned"
+" left to right. ``i`` becomes ``1``, and only then is ``a[i] = 5`` applied "
+"using the new ``i``, so ``a[1]`` is set, giving ``[1, 5, 3]``."
+msgstr ""
+"El lado derecho ``(1, 5)`` se evalúa primero, luego los destinos se asignan "
+"de izquierda a derecha. ``i`` se convierte en ``1``, y solo entonces se "
+"aplica ``a[i] = 5`` usando la nueva ``i``, así que se asigna ``a[1]``, dando"
+" ``[1, 5, 3]``."
+
+#: ../../../syntax-medium.rst:141 ../../../syntax-medium.rst:169
+#: ../../../syntax-medium.rst:507
+msgid "``[1, 2, 3]``"
+msgstr "``[1, 2, 3]``"
+
+#: ../../../syntax-medium.rst:142
+msgid "``[3, 1, 2]``"
+msgstr "``[3, 1, 2]``"
+
+#: ../../../syntax-medium.rst:143
+msgid "``[1, 2, [3]]``"
+msgstr "``[1, 2, [3]]``"
+
+#: ../../../syntax-medium.rst:148
+msgid ""
+"For lists, ``+=`` calls ``list.extend`` and mutates the object in place "
+"rather than creating a new one. ``b`` still refers to that same list, so it "
+"also sees the appended ``3``: ``[1, 2, 3]``."
+msgstr ""
+"Para las listas, ``+=`` llama a ``list.extend`` y muta el objeto en el sitio"
+" en lugar de crear uno nuevo. ``b`` sigue refiriéndose a esa misma lista, "
+"así que también ve el ``3`` añadido: ``[1, 2, 3]``."
+
+#: ../../../syntax-medium.rst:171
+msgid "``[3]``"
+msgstr "``[3]``"
+
+#: ../../../syntax-medium.rst:172
+msgid "``[1, 2, 3, 3]``"
+msgstr "``[1, 2, 3, 3]``"
+
+#: ../../../syntax-medium.rst:177
+msgid ""
+"Unlike ``+=``, the expression ``a + [3]`` builds a brand-new list and "
+"rebinds ``a`` to it. ``b`` still points at the original, unmodified list, so"
+" it prints ``[1, 2]``."
+msgstr ""
+"A diferencia de ``+=``, la expresión ``a + [3]`` construye una lista "
+"totalmente nueva y revincula ``a`` a ella. ``b`` sigue apuntando a la lista "
+"original sin modificar, así que imprime ``[1, 2]``."
+
+#: ../../../syntax-medium.rst:201
+msgid "``5``"
+msgstr "``5``"
+
+#: ../../../syntax-medium.rst:202
+msgid "``10``"
+msgstr "``10``"
+
+#: ../../../syntax-medium.rst:203
+msgid "``None``"
+msgstr "``None``"
+
+#: ../../../syntax-medium.rst:204 ../../../syntax-medium.rst:425
+#: ../../../syntax-medium.rst:504
+msgid "``NameError``"
+msgstr "``NameError``"
+
+#: ../../../syntax-medium.rst:209
+msgid ""
+"The default value is captured when the ``def`` statement runs, at which "
+"point ``i`` is ``5``. Reassigning ``i`` afterward does not change the stored"
+" default, so ``f()`` returns ``5``."
+msgstr ""
+"El valor por defecto se captura cuando se ejecuta la sentencia ``def``, "
+"momento en el que ``i`` es ``5``. Reasignar ``i`` después no cambia el valor"
+" por defecto almacenado, así que ``f()`` devuelve ``5``."
+
+#: ../../../syntax-medium.rst:228
+msgid "``[2, 3, 4]``"
+msgstr "``[2, 3, 4]``"
+
+#: ../../../syntax-medium.rst:229 ../../../syntax-medium.rst:256
+#: ../../../syntax-medium.rst:361 ../../../syntax-medium.rst:423
+#: ../../../syntax-medium.rst:450 ../../../syntax-medium.rst:506
+#: ../../../syntax-medium.rst:559
+msgid "``2``"
+msgstr "``2``"
+
+#: ../../../syntax-medium.rst:230
+msgid "``[2, 3, 4, 5]``"
+msgstr "``[2, 3, 4, 5]``"
+
+#: ../../../syntax-medium.rst:231
+msgid "``(2, 3, 4)``"
+msgstr "``(2, 3, 4)``"
+
+#: ../../../syntax-medium.rst:236
+msgid ""
+"A starred target in unpacking soaks up all the leftover items as a ``list``."
+" ``a`` takes ``1``, ``c`` takes ``5``, and ``b`` gets everything between "
+"them: ``[2, 3, 4]``."
+msgstr ""
+"Un destino con asterisco en el desempaquetado absorbe todos los elementos "
+"sobrantes como una ``list``. ``a`` toma ``1``, ``c`` toma ``5``, y ``b`` "
+"obtiene todo lo que hay entre ellos: ``[2, 3, 4]``."
+
+#: ../../../syntax-medium.rst:254
+msgid "``0``"
+msgstr "``0``"
+
+#: ../../../syntax-medium.rst:255 ../../../syntax-medium.rst:363
+#: ../../../syntax-medium.rst:449 ../../../syntax-medium.rst:558
+msgid "``1``"
+msgstr "``1``"
+
+#: ../../../syntax-medium.rst:262
+msgid ""
+"``and`` binds tighter than ``or``. ``0 and 1`` short-circuits to ``0`` "
+"(falsy), then ``0 or 2`` returns the second operand ``2``."
+msgstr ""
+"``and`` liga con más fuerza que ``or``. ``0 and 1`` se cortocircuita a ``0``"
+" (falso), luego ``0 or 2`` devuelve el segundo operando ``2``."
+
+#: ../../../syntax-medium.rst:281
+msgid "``[[1, 0], [0, 0]]``"
+msgstr "``[[1, 0], [0, 0]]``"
+
+#: ../../../syntax-medium.rst:282
+msgid "``[[1, 0], [1, 0]]``"
+msgstr "``[[1, 0], [1, 0]]``"
+
+#: ../../../syntax-medium.rst:283
+msgid "``[[1, 1], [0, 0]]``"
+msgstr "``[[1, 1], [0, 0]]``"
+
+#: ../../../syntax-medium.rst:284
+msgid "``[[1], [0]]``"
+msgstr "``[[1], [0]]``"
+
+#: ../../../syntax-medium.rst:289
+msgid ""
+"The outer ``* 2`` copies the *reference* to the inner list, not the list "
+"itself, so both rows are the same object. Mutating one row is visible in the"
+" other, giving ``[[1, 0], [1, 0]]``."
+msgstr ""
+"El ``* 2`` exterior copia la *referencia* a la lista interior, no la lista "
+"en sí, así que ambas filas son el mismo objeto. Mutar una fila se ve en la "
+"otra, dando ``[[1, 0], [1, 0]]``."
+
+#: ../../../syntax-medium.rst:309
+msgid "``True True``"
+msgstr "``True True``"
+
+#: ../../../syntax-medium.rst:310
+msgid "``True False``"
+msgstr "``True False``"
+
+#: ../../../syntax-medium.rst:311
+msgid "``False False``"
+msgstr "``False False``"
+
+#: ../../../syntax-medium.rst:312
+msgid "``False True``"
+msgstr "``False True``"
+
+#: ../../../syntax-medium.rst:317
+msgid ""
+"``==`` compares values, so equal contents make it ``True``. ``is`` compares "
+"identity, and two separate list literals are distinct objects, so it is "
+"``False``."
+msgstr ""
+"``==`` compara valores, así que contenidos iguales lo hacen ``True``. ``is``"
+" compara identidad, y dos literales de lista distintos son objetos "
+"distintos, así que es ``False``."
+
+#: ../../../syntax-medium.rst:335
+msgid "``-3``"
+msgstr "``-3``"
+
+#: ../../../syntax-medium.rst:336
+msgid "``-4``"
+msgstr "``-4``"
+
+#: ../../../syntax-medium.rst:337
+msgid "``-3.5``"
+msgstr "``-3.5``"
+
+#: ../../../syntax-medium.rst:338 ../../../syntax-medium.rst:451
+#: ../../../syntax-medium.rst:479 ../../../syntax-medium.rst:505
+msgid "``3``"
+msgstr "``3``"
+
+#: ../../../syntax-medium.rst:343
+msgid ""
+"Floor division rounds toward negative infinity, not toward zero. ``-7 / 2`` "
+"is ``-3.5``, and the floor of that is ``-4``."
+msgstr ""
+"La división entera redondea hacia el infinito negativo, no hacia cero. ``-7 "
+"/ 2`` es ``-3.5``, y el suelo de eso es ``-4``."
+
+#: ../../../syntax-medium.rst:360
+msgid "``-1``"
+msgstr "``-1``"
+
+#: ../../../syntax-medium.rst:362
+msgid "``-2``"
+msgstr "``-2``"
+
+#: ../../../syntax-medium.rst:368
+msgid ""
+"In Python the result of ``%`` takes the sign of the divisor. Since ``-7 // "
+"3`` is ``-3``, the remainder is ``-7 - (-3 * 3) = 2``."
+msgstr ""
+"En Python el resultado de ``%`` toma el signo del divisor. Como ``-7 // 3`` "
+"es ``-3``, el resto es ``-7 - (-3 * 3) = 2``."
+
+#: ../../../syntax-medium.rst:395
+msgid "``[1, 4]``"
+msgstr "``[1, 4]``"
+
+#: ../../../syntax-medium.rst:396
+msgid "``[1, 4, 4]``"
+msgstr "``[1, 4, 4]``"
+
+#: ../../../syntax-medium.rst:397
+msgid "``[1, 4, 4, 4]``"
+msgstr "``[1, 4, 4, 4]``"
+
+#: ../../../syntax-medium.rst:402
+msgid ""
+"``f`` rebinds its local name ``lst`` to a new list, leaving the caller's "
+"list untouched. ``g`` mutates the list in place via ``append``, so only "
+"``g``'s change is visible: ``[1, 4]``."
+msgstr ""
+"``f`` revincula su nombre local ``lst`` a una nueva lista, dejando intacta "
+"la lista del llamador. ``g`` muta la lista en el sitio mediante ``append``, "
+"así que solo el cambio de ``g`` es visible: ``[1, 4]``."
+
+#: ../../../syntax-medium.rst:422
+msgid "``outer``"
+msgstr "``outer``"
+
+#: ../../../syntax-medium.rst:430
+msgid ""
+"In Python 3 a comprehension has its own scope, so its loop variable ``x`` "
+"does not leak out and overwrite the outer ``x``. The outer name still holds "
+"``\"outer\"``."
+msgstr ""
+"En Python 3 una comprensión tiene su propio ámbito, así que su variable de "
+"bucle ``x`` no se filtra al exterior ni sobrescribe la ``x`` exterior. El "
+"nombre exterior sigue conteniendo ``\"outer\"``."
+
+#: ../../../syntax-medium.rst:452
+msgid "``SyntaxError``"
+msgstr "``SyntaxError``"
+
+#: ../../../syntax-medium.rst:457
+msgid ""
+"Conditional expressions group right to left, reading as ``1 if True else (2 "
+"if False else 3)``. The first condition is true, so the whole thing is ``1``"
+" and the nested part is never evaluated."
+msgstr ""
+"Las expresiones condicionales se agrupan de derecha a izquierda, leyéndose "
+"como ``1 if True else (2 if False else 3)``. La primera condición es "
+"verdadera, así que el conjunto es ``1`` y la parte anidada nunca se evalúa."
+
+#: ../../../syntax-medium.rst:478
+msgid "``13``"
+msgstr "``13``"
+
+#: ../../../syntax-medium.rst:481
+msgid "``11``"
+msgstr "``11``"
+
+#: ../../../syntax-medium.rst:486
+msgid ""
+"The bare ``*`` makes ``c`` keyword-only, so it must be passed by name. With "
+"``a=1``, the default ``b=10`` and ``c=2``, the sum is ``13``."
+msgstr ""
+"El ``*`` solo hace que ``c`` sea exclusivo por palabra clave, así que debe "
+"pasarse por nombre. Con ``a=1``, el valor por defecto ``b=10`` y ``c=2``, la"
+" suma es ``13``."
+
+#: ../../../syntax-medium.rst:512
+msgid ""
+"Unlike the comprehension's own loop variable, a walrus (``:=``) target binds"
+" in the *enclosing* scope. After the loop it holds the last assigned value, "
+"``2 + 1``, so ``y`` is ``3``."
+msgstr ""
+"A diferencia de la variable de bucle propia de la comprensión, un destino "
+"con morsa (``:=``) se vincula en el ámbito *envolvente*. Tras el bucle "
+"contiene el último valor asignado, ``2 + 1``, así que ``y`` es ``3``."
+
+#: ../../../syntax-medium.rst:530
+msgid "``522``"
+msgstr "``522``"
+
+#: ../../../syntax-medium.rst:531
+msgid "``5222``"
+msgstr "``5222``"
+
+#: ../../../syntax-medium.rst:532
+msgid "``5 222``"
+msgstr "``5 222``"
+
+#: ../../../syntax-medium.rst:538
+msgid ""
+"``*`` runs before ``+``, so ``3 * \"2\"`` is ``\"222\"``, then string "
+"concatenation prepends ``\"5\"``, producing ``5222``."
+msgstr ""
+"``*`` se ejecuta antes que ``+``, así que ``3 * \"2\"`` es ``\"222\"``, "
+"luego la concatenación de cadenas antepone ``\"5\"``, produciendo ``5222``."
+
+#: ../../../syntax-medium.rst:560
+msgid "``(1, 2, 3)``"
+msgstr "``(1, 2, 3)``"
+
+#: ../../../syntax-medium.rst:566
+msgid ""
+"A comma-separated ``return`` builds a tuple, so ``f()`` returns ``(1, 2, "
+"3)``. Indexing it with ``[1]`` gives the second element, ``2``."
+msgstr ""
+"Un ``return`` separado por comas construye una tupla, así que ``f()`` "
+"devuelve ``(1, 2, 3)``. Indexarla con ``[1]`` da el segundo elemento, ``2``."
