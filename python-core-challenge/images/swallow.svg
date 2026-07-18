@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- swallow -->
+  <path d="M40 70 Q70 45 100 65 Q130 45 160 70"/>
+  <path d="M100 65 Q96 85 100 95"/>
+  <path d="M100 95 l-10 18 M100 95 l10 18"/>
+  <!-- string -->
+  <path d="M100 113 V140" stroke-dasharray="3 7"/>
+  <!-- coconut -->
+  <circle cx="100" cy="158" r="18"/>
+  <circle cx="94" cy="152" r="1.5"/>
+  <circle cx="104" cy="152" r="1.5"/>
+  <circle cx="99" cy="160" r="1.5"/>
+  <!-- speed lines -->
+  <path d="M20 95 h22 M158 95 h22 M32 115 h18 M150 115 h18" stroke-width="4"/>
+</svg>

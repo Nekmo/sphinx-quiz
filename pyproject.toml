@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx-quiz"
+version = "0.1.0"
+description = "Sphinx extension to build static quiz websites from reStructuredText"
+readme = "README.rst"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Nekmo", email = "contacto@nekmo.com" }]
+dependencies = ["sphinx>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["sphinx_quiz*"]
+
+[tool.setuptools.package-data]
+sphinx_quiz = ["static/*", "theme/*", "theme/static/*"]

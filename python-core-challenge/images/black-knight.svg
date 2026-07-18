@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- helmet -->
+  <path d="M60 95 V60 a40 40 0 0 1 80 0 V95 Z"/>
+  <path d="M60 78 H140"/>
+  <path d="M85 78 V95 M100 78 V95 M115 78 V95"/>
+  <!-- plume -->
+  <path d="M100 20 q-6 -14 4 -16 q12 -2 8 14"/>
+  <!-- crossed swords, one broken -->
+  <path d="M45 175 L95 125 M95 125 l10 -10"/>
+  <path d="M155 175 L120 140"/>
+  <path d="M108 128 l-6 -6"/>
+  <circle cx="45" cy="175" r="5"/>
+  <circle cx="155" cy="175" r="5"/>
+  <!-- fallen arm -->
+  <path d="M50 120 q-14 8 -8 20" stroke-dasharray="4 8"/>
+</svg>

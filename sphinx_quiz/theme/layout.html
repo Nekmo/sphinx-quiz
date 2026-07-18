@@ -1,0 +1,26 @@
+{%- extends "basic/layout.html" %}
+
+{%- block extrahead %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- endblock %}
+
+{# Quiz sites have no sidebar or relation bars. #}
+{%- block header %}{% endblock %}
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+{%- block sidebar1 %}{% endblock %}
+{%- block sidebar2 %}{% endblock %}
+
+{%- block content %}
+  <div class="quiz-page">
+    <div class="quiz-page-body" role="main">
+      {% block body %}{% endblock %}
+    </div>
+  </div>
+{%- endblock %}
+
+{%- block footer %}
+  <footer class="quiz-page-footer">
+    {%- if show_copyright and copyright %}&copy; {{ copyright }}.{% endif %}
+  </footer>
+{%- endblock %}

@@ -1,0 +1,90 @@
+/* sphinx_quiz theme — dark, single centered column, REPL accents. */
+
+:root {
+  --qt-bg: #0d1319;
+  --qt-panel: #1b2431;
+  --qt-border: #33415a;
+  --qt-text: #e8edf4;
+  --qt-muted: #8fa1b8;
+  --qt-blue: #4b8bbe;
+  --qt-yellow: #ffd43b;
+  --qt-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+html {
+  background: var(--qt-bg);
+}
+body {
+  margin: 0;
+  background: var(--qt-bg);
+  color: var(--qt-text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.quiz-page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 3rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--qt-mono);
+  color: var(--qt-text);
+  line-height: 1.25;
+}
+h1 {
+  font-size: 1.9rem;
+  margin: 0 0 1.5rem;
+}
+h1::before, h2::before {
+  content: ">>> ";
+  color: var(--qt-yellow);
+}
+h2 { font-size: 1.35rem; margin-top: 2.5rem; }
+h3 { font-size: 1.1rem; color: var(--qt-muted); }
+
+a { color: var(--qt-yellow); }
+a:hover { color: #fff; }
+
+p { margin: 0.75rem 0; }
+
+code.literal {
+  font-family: var(--qt-mono);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--qt-yellow);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
+div.highlight pre {
+  background: #11161f;
+  border: 1px solid var(--qt-border);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  font-family: var(--qt-mono);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul.simple {
+  padding-left: 1.5rem;
+}
+ul.simple li {
+  margin: 0.35rem 0;
+}
+
+.quiz-page-footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2rem;
+  color: var(--qt-muted);
+  font-family: var(--qt-mono);
+  font-size: 0.75rem;
+}
+
+/* Hide the automatic "headerlink" pilcrows. */
+a.headerlink { display: none; }
