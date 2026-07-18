@@ -1,0 +1,30 @@
+Create a wide 16:9 GitHub README hero banner for an open-source developer
+tool called "sphinx-quiz" — a Sphinx extension that turns reStructuredText
+into an interactive, Kahoot-style quiz website.
+
+Style: modern, crisp, flat, high-contrast. Dark theme, background #0d1319
+with a subtle radial glow. Accent colour golden yellow #ffd43b. Clean
+professional look, subtle soft shadows, generous spacing. No watermark, no
+random extra text.
+
+Layout, left ~70% — a single sleek browser window (rounded, macOS-style
+with three window dots and a slim address bar) that visualises a
+"before → after" transformation, split by a glowing golden vertical
+divider carrying a small right-pointing arrow:
+  - LEFT half of the browser: the reStructuredText SOURCE code, shown as a
+    dark code-editor panel with syntax highlighting. Reproduce the second
+    reference image (the .rst code) faithfully and legibly — same text.
+  - RIGHT half of the browser: the RENDERED quiz. Reproduce the first
+    reference image faithfully — the dark quiz setup screen titled
+    ">>> Know Your Python" with a fan of colourful category cards (Mixed
+    purple, Syntax red, Builtins blue, Library gold, Culture green) and the
+    Mix/Easy/Medium/Hard level chips below.
+
+Right ~30% — a branding panel: the title "sphinx-quiz" in a bold modern
+sans-serif (white with a golden-yellow accent), and directly below it, in
+smaller golden-yellow text, the slogan:
+"reStructuredText in — Kahoot-style quiz out."
+
+Keep both browser halves clearly readable; the divider with the arrow must
+read as "source transforms into quiz". Everything on one cohesive dark
+banner.
