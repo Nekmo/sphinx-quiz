@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
-project = 'Python Core Challenge'
+project = 'Know Your Python'
 copyright = '2026, Nekmo'
 author = 'Nekmo'
 master_doc = 'index'

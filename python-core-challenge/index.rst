@@ -4,9 +4,9 @@
 
    *
 
-#####################
-Python Core Challenge
-#####################
+################
+Know Your Python
+################
 
 .. quick-select-level::
    :data-include-all: true
