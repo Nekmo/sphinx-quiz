@@ -14,7 +14,7 @@ Quick start
 .. code-block:: bash
 
     pip install -e .
-    cd python-core-challenge
+    cd know-your-python
     make html
     xdg-open _build/html/index.html
 

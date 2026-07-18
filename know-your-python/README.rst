@@ -4,8 +4,8 @@ Know Your Python
 Example quiz project for the ``sphinx_quiz`` extension: a static,
 Kahoot-like quiz about core Python with three levels, per-question
 timer, Monty Python results screen and shareable results. Available in
-English and Spanish. (The directory is still named ``python-core-challenge``;
-the displayed title comes from ``project`` in ``conf.py``.)
+English and Spanish. (The displayed title comes from ``project`` in
+``conf.py``.)
 
 Categories
 ----------
@@ -33,7 +33,7 @@ Build and play
     # from the repository root, once:
     python -m venv .venv && .venv/bin/pip install -e '.[i18n]'
 
-    cd python-core-challenge
+    cd know-your-python
 
     # English only:
     ../.venv/bin/sphinx-build -M html . _build

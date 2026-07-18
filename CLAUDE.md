@@ -2,20 +2,20 @@
 
 Sphinx extension (`sphinx_quiz`) that builds a static, Kahoot-like quiz
 website from reStructuredText, plus an example quiz project
-(`python-core-challenge/`).
+(`know-your-python/`).
 
 ## Commands
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -e .   # once
-cd python-core-challenge
+cd know-your-python
 ../.venv/bin/sphinx-build -M html . _build           # build the quiz site
 (cd _build/html && python -m http.server 8642)       # serve for testing
 ```
 
 A full rebuild (`rm -rf _build`) kills any `http.server` serving that
 directory — restart it after rebuilding. For CSS/JS-only tweaks it is
-faster to `cp sphinx_quiz/static/quiz.{js,css} python-core-challenge/_build/html/_static/`
+faster to `cp sphinx_quiz/static/quiz.{js,css} know-your-python/_build/html/_static/`
 than to rebuild.
 
 Always full-rebuild after editing questions: an incremental build only
@@ -25,8 +25,8 @@ questions. `rm -rf _build` first.
 Combined bilingual site (English at `/`, Spanish nested under `/es/`):
 ```bash
 ../.venv/bin/pip install -e '.[i18n]'                # sphinx-intl, once
-make -C python-core-challenge site SPHINXBUILD=../.venv/bin/sphinx-build
-(cd python-core-challenge/_build/html && python -m http.server 8642)
+make -C know-your-python site SPHINXBUILD=../.venv/bin/sphinx-build
+(cd know-your-python/_build/html && python -m http.server 8642)
 ```
 `make site` builds en into `_build/html`, builds es, and copies it into
 `_build/html/es`. Flags top-right (rendered by `quiz.js`, `renderLangSwitcher`)
@@ -34,7 +34,7 @@ switch languages: en's ES flag → `es/`, es's EN flag → `../`. `make html-es`
 still produces a Spanish-only build in `_build/html-es` if needed.
 After editing/adding questions, refresh the catalogs:
 ```bash
-cd python-core-challenge
+cd know-your-python
 make gettext
 ../.venv/bin/sphinx-intl update -p _build/gettext/gettext -l es   # note the nested gettext/
 # then translate the empty msgstr in locale/es/LC_MESSAGES/*.po
@@ -88,7 +88,7 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
 - `sphinx_quiz/theme/` — dark sidebar-free HTML theme registered as
   `html_theme = 'sphinx_quiz'`; sets `pygments_style = monokai`.
 - Example project questions live one file per `(category, level)` pair:
-  `python-core-challenge/<category>-<level>.rst` (e.g. `syntax-hard.rst`),
+  `know-your-python/<category>-<level>.rst` (e.g. `syntax-hard.rst`),
   each `:orphan:` with a single `quiz-section` and ~20 questions (some files
   carry a few more — extra questions per pool are fine). The `index.rst`
   toctree globs `*`, so new files are auto-included. Every code-bearing
