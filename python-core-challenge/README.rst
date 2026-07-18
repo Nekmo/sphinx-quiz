@@ -1,9 +1,11 @@
-Python Core Challenge
-=====================
+Know Your Python
+================
 
 Example quiz project for the ``sphinx_quiz`` extension: a static,
 Kahoot-like quiz about core Python with three levels, per-question
-timer, Monty Python results screen and shareable results.
+timer, Monty Python results screen and shareable results. Available in
+English and Spanish. (The directory is still named ``python-core-challenge``;
+the displayed title comes from ``project`` in ``conf.py``.)
 
 Categories
 ----------
@@ -20,17 +22,26 @@ Categories
 ``culture``
     History of the language, trivia, and Monty Python content.
 
+Spanish labels (``Sintaxis``/``Builtins``/``Biblioteca``/``Cultura``,
+``Mixto``, ``Fácil``/``Medio``/``Difícil``) come from ``quiz.js``.
+
 Build and play
 --------------
 
 .. code-block:: bash
 
     # from the repository root, once:
-    python -m venv .venv && .venv/bin/pip install -e .
+    python -m venv .venv && .venv/bin/pip install -e '.[i18n]'
 
     cd python-core-challenge
+
+    # English only:
     ../.venv/bin/sphinx-build -M html . _build
     xdg-open _build/html/index.html      # works over file:// too
+
+    # Combined bilingual site (English at /, Spanish under /es/):
+    make site SPHINXBUILD=../.venv/bin/sphinx-build
+    (cd _build/html && python -m http.server 8642)   # then open localhost:8642
 
 Project layout
 --------------
@@ -45,13 +56,19 @@ Project layout
     display order); levels are derived from the questions with ``*``
     and harder levels are sampled more often via ``data-weights``.
 
-``syntax.rst`` / ``builtins.rst`` / ``library.rst`` / ``culture.rst``
-    Question banks, one per category. Each file holds sections marked
-    with ``quiz-section`` (category + level) containing question
-    sections: ``quiz-question`` + optional code block +
-    ``quiz-choices`` + an *Answer* subsection with the explanation.
-    ``builtins.rst`` includes a multiple-answer question
-    (``:data-correct: 1, 2, 4``).
+``<category>-<level>.rst``
+    Question banks, one file per (category, level) pair — ``syntax-easy``,
+    ``syntax-medium``, ``syntax-hard``, ``builtins-*``, ``library-*``,
+    ``culture-*`` — each ``:orphan:`` with a single ``quiz-section``
+    (category + level) and ~20 question sections: ``quiz-question`` +
+    optional code block + ``quiz-choices`` + an *Answer* subsection with
+    the explanation. Every code-bearing answer is verified by running the
+    snippet; ``:data-seconds:`` is calibrated per question (reading length
+    + code-comprehension cost).
+
+``locale/es/LC_MESSAGES/*.po``
+    Spanish (es-ES) gettext catalogs, one per source doc. Built into the
+    ``/es/`` site by ``make site``.
 
 ``transitions.rst``
     Post-answer screens for success/failure, including time-based ones

@@ -66,6 +66,28 @@ Directives
     (source-relative path, copied to ``_static/quiz-podium/``) and
     ``:data-text:``.
 
+Internationalization
+--------------------
+
+Question content is translated with Sphinx's standard gettext workflow.
+Set ``locale_dirs = ['locale/']`` and ``gettext_compact = False`` in
+``conf.py``, then::
+
+    pip install -e '.[i18n]'                 # sphinx-intl
+    make gettext
+    sphinx-intl update -p _build/gettext/gettext -l es
+    # translate the msgstr in locale/es/LC_MESSAGES/*.po
+
+Because ``:data-correct:`` lives in the ``.rst`` (positional), translating
+choices never changes which answer is right. UI chrome (button labels,
+level and category names) is translated inside ``quiz.js`` ``STRINGS``,
+keyed by the build's ``language``.
+
+Build one combined site with English at the root and another language
+nested under a sub-path (``make site`` in the example project builds
+``_build/html`` with Spanish under ``_build/html/es``). A flag switcher in
+the top-right corner links between them.
+
 Theme
 -----
 

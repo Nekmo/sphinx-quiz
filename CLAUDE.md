@@ -89,24 +89,36 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
   `html_theme = 'sphinx_quiz'`; sets `pygments_style = monokai`.
 - Example project questions live one file per `(category, level)` pair:
   `python-core-challenge/<category>-<level>.rst` (e.g. `syntax-hard.rst`),
-  each `:orphan:` with a single `quiz-section` and 20 questions. The
-  `index.rst` toctree globs `*`, so new files are auto-included. Every
-  code-bearing question's marked answer is verified by executing the
-  snippet under the venv Python — keep it that way when adding questions.
-- i18n: `conf.py` sets `locale_dirs = ['locale/']` + `gettext_compact =
-  False`; Spanish catalogs are `locale/es/LC_MESSAGES/*.po` (one per doc).
-  Translate prose + choices, keep code/`literals`/identifiers verbatim.
-  `data-correct` is positional in the `.rst`, so translations never change
-  which answer is correct. `.mo` files are gitignored (built on demand).
+  each `:orphan:` with a single `quiz-section` and ~20 questions (some files
+  carry a few more — extra questions per pool are fine). The `index.rst`
+  toctree globs `*`, so new files are auto-included. Every code-bearing
+  question's marked answer is verified by executing the snippet under the
+  venv Python — keep it that way when adding questions. `data-seconds` is
+  calibrated per question: base by level + reading length + code-comprehension
+  cost (easy ~15-45, medium ~25-70, hard ~30-90).
+- Two translation layers, kept separate:
+  - **Question content** (gettext): `conf.py` sets `locale_dirs =
+    ['locale/']` + `gettext_compact = False`; Spanish catalogs are
+    `locale/es/LC_MESSAGES/*.po` (one per doc). Translate prose + choices,
+    keep code/`literals`/identifiers verbatim. `data-correct` is positional
+    in the `.rst`, so translations never change which answer is correct.
+    `.mo` files are gitignored (built on demand).
+  - **UI labels** (in `quiz.js` `STRINGS`, keyed by `data.language`):
+    screen chrome plus the `levels` and `categories` maps. Helpers
+    `levelName(t, v)` / `categoryName(t, v)` resolve a value to its label
+    and fall back to the raw/capitalized key, so a project that declares no
+    translations still renders. es: Mixto, Fácil/Medio/Difícil,
+    Sintaxis/Builtins/Biblioteca/Cultura.
 
 ## Style guide (user decisions — keep)
 
 - Source content in English (project `language = 'en'`; UI strings follow
-  `data.language`, `es` translations exist in `quiz.js`). A full es-ES
-  question translation lives in `locale/es/` (gettext); build the combined
-  bilingual site with `make site` — see Commands. The top-right flag switcher
-  (`.sq-lang` in quiz.js/css) is a deliberate exception to the monocolor-icon
-  rule: real multicolor UK/Spain SVG flags, per user request.
+  `data.language` via `quiz.js` `STRINGS`, incl. the `levels`/`categories`
+  label maps). A full es-ES question translation lives in `locale/es/`
+  (gettext); build the combined bilingual site with `make site` — see
+  Commands. The top-right flag switcher (`.sq-lang` in quiz.js/css) is a
+  deliberate exception to the monocolor-icon rule: real multicolor UK/Spain
+  SVG flags, per user request.
 - Kahoot palette (`PALETTE` in quiz.js); solid-color borderless cards;
   mono pill buttons (yellow outline = primary); single blue for
   breakdown bars; monocolor SVG icons/images only.
@@ -129,13 +141,19 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
 - Example project categories (fixed display order, listed explicitly in
   `index.rst`): Mixed (all), syntax (unexpected syntax/little-known
   features), builtins (core functions/properties), library (stdlib +
-  essential libraries), culture (history, trivia, Monty Python).
+  essential libraries), culture (history, trivia, Monty Python). es labels
+  come from the `categories` map in `quiz.js` (Sintaxis/Builtins/Biblioteca/
+  Cultura), not from gettext. Level calibration: easy = one fact, medium =
+  reasoning/gotcha, hard = wtfpython-tier CPython edge (noted as
+  implementation-specific in the answer where relevant).
 
 ## Verification
 
-Use Playwright MCP against `http://localhost:8642/` (the `file://`
-protocol is blocked in the MCP browser). `window.sphinxQuiz` +
-`window.SPHINX_QUIZ_DATA` let tests pick correct/wrong answers
-deterministically. When checking overlap bugs, sample
-`getBoundingClientRect` in a loop during the animation, not just at the
-end.
+Use Playwright MCP against `http://localhost:8642/` (English) and
+`http://localhost:8642/es/` (Spanish) — the `file://` protocol is blocked
+in the MCP browser. `window.sphinxQuiz` + `window.SPHINX_QUIZ_DATA` let
+tests pick correct/wrong answers deterministically. When checking overlap
+bugs, sample `getBoundingClientRect` in a loop during the animation, not
+just at the end. Answer correctness is also gated offline: parse each
+`.rst`, execute every `code-block` under the venv Python, and assert the
+`data-correct` choice matches the real output/exception before shipping.
