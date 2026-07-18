@@ -464,7 +464,15 @@ body.sq-app-active .quiz-page-footer {
 #sphinx-quiz-app .sq-post .sq-explanation {
   flex: 0 1 auto;
   min-height: 0;
+  /* min-width 0 stops wide code blocks (min-content) from inflating
+     the flex item past its container; the pre scrolls instead. */
+  min-width: 0;
+  max-width: min(760px, 100%);
+  box-sizing: border-box;
   overflow-y: auto;
+}
+#sphinx-quiz-app .sq-explanation .highlight {
+  overflow-x: auto;
 }
 #sphinx-quiz-app .sq-post .sq-feedback .sq-btn {
   flex: 0 0 auto;
@@ -928,6 +936,62 @@ body.sq-app-active .quiz-page-footer {
 #sphinx-quiz-app .sq-empty {
   color: var(--sq-muted);
   margin: 30vh 0 1rem;
+}
+
+/* Mobile: cards in a centered 3-2 wrap instead of the fan, corner
+   selectors flow under the chips, smaller title and brand. */
+@media (max-width: 640px) {
+  #sphinx-quiz-app .sq-typed {
+    font-size: 5.5vw;
+    margin-top: 1.2rem;
+  }
+  #sphinx-quiz-app .sq-fan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.7rem;
+    width: 100%;
+  }
+  #sphinx-quiz-app .sq-fan-card {
+    --card-rotate: 0deg;
+    --card-lift: 0px;
+    width: calc(33.33% - 0.7rem);
+    margin: 0;
+    padding: 0.7rem;
+    border-radius: 12px;
+    transform: none;
+  }
+  #sphinx-quiz-app .sq-fan-card:hover,
+  #sphinx-quiz-app .sq-fan-card:focus-visible {
+    transform: translateY(-8px) scale(1.04);
+  }
+  #sphinx-quiz-app .sq-fan-name {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+  }
+  #sphinx-quiz-app .sq-fan-deco {
+    font-size: 1rem;
+  }
+  #sphinx-quiz-app .sq-chips {
+    margin-bottom: 0;
+  }
+  #sphinx-quiz-app .sq-corner {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0.9rem 0 0.3rem;
+  }
+  #sphinx-quiz-app .sq-brand {
+    font-size: 0.9rem;
+    top: 0.7rem;
+    left: 0.8rem;
+  }
+  #sphinx-quiz-app .sq-stage.sq-docked {
+    top: 4.2rem;
+  }
 }
 
 /* Short viewports: compact verdict so the resolution keeps room. */
