@@ -11,10 +11,17 @@ explanation and transition screens, is written as plain rst.
 Quick start
 -----------
 
+Install the extension, then build a quiz project that uses it. The example
+project, *Know Your Python*, lives in its own repository (``know-your-python``)
+and installs this package as a dependency:
+
 .. code-block:: bash
 
-    pip install -e .
-    cd know-your-python
+    pip install -e .                     # this extension
+
+    # the example quiz project, cloned next to this repo:
+    cd ../know-your-python
+    pip install -r requirements.txt      # pulls in ../python-quiz
     make html
     xdg-open _build/html/index.html
 
