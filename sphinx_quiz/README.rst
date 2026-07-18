@@ -90,4 +90,7 @@ Client features
   rebuilds the results and the review.
 - Share as image: a 1200×630 PNG drawn on a canvas.
 - Best score per game configuration kept in ``localStorage``.
+- Responsive: on screens up to 640px wide the category cards switch
+  from the fan to a centered 3-2 layout with natural tilts, and the
+  setup selectors flow under the level chips.
 - ``window.sphinxQuiz`` is exposed for debugging.

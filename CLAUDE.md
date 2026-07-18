@@ -84,6 +84,15 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
   position is computed upfront (no mid-flight overlap); only the
   explanation scrolls (styled scrollbar), answers and next button stay
   visible.
+- Mobile (`max-width: 640px`): cover cards drop the fan for a centered
+  3-2 flex wrap with small alternating nth-child tilts (natural "cards
+  on a table" look); corner selectors flow under the level chips; title
+  scales with the viewport. `min-width: 0` on the explanation flex item
+  keeps wide code blocks scrolling inside instead of inflating it.
+- Example project categories (fixed display order, listed explicitly in
+  `index.rst`): Mixed (all), syntax (unexpected syntax/little-known
+  features), builtins (core functions/properties), library (stdlib +
+  essential libraries), culture (history, trivia, Monty Python).
 
 ## Verification
 
