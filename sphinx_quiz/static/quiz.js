@@ -39,7 +39,7 @@
     es: {
       question: "Pregunta",
       of: "de",
-      mixed: "Mix",
+      mixed: "Mixto",
       all: "Todas",
       allCategory: "Mixto",
       categoryLabel: "Categoría",
@@ -1140,10 +1140,51 @@
     this.mount.appendChild(overlay);
   };
 
+  /* Small flag SVGs for the language switcher (top-right corner). */
+  var FLAG_EN =
+    '<svg viewBox="0 0 60 30" aria-hidden="true">' +
+    '<clipPath id="sq-uk-a"><path d="M0,0 v30 h60 v-30 z"/></clipPath>' +
+    '<clipPath id="sq-uk-b"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath>' +
+    '<g clip-path="url(#sq-uk-a)">' +
+    '<path d="M0,0 v30 h60 v-30 z" fill="#012169"/>' +
+    '<path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>' +
+    '<path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#sq-uk-b)" stroke="#C8102E" stroke-width="4"/>' +
+    '<path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>' +
+    '<path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/>' +
+    "</g></svg>";
+  var FLAG_ES =
+    '<svg viewBox="0 0 60 40" aria-hidden="true">' +
+    '<rect width="60" height="40" fill="#AA151B"/>' +
+    '<rect y="10" width="60" height="20" fill="#F1BF00"/>' +
+    "</svg>";
+
+  /* English site lives at the root, Spanish under /es/. Show both flags;
+     the current one is inert, the other links to its counterpart index. */
+  function renderLangSwitcher(data) {
+    if (document.querySelector(".sq-lang")) return;
+    var lang = (data.language || "en").split(/[_-]/)[0];
+    var isEs = lang === "es";
+    var box = el("div", "sq-lang");
+    [
+      { code: "en", label: "English", svg: FLAG_EN, href: isEs ? "../" : null },
+      { code: "es", label: "Español", svg: FLAG_ES, href: isEs ? null : "es/" },
+    ].forEach(function (f) {
+      var node = f.href ? document.createElement("a") : document.createElement("span");
+      node.className = "sq-flag" + (f.href ? "" : " sq-flag-active");
+      node.innerHTML = f.svg;
+      node.title = f.label;
+      node.setAttribute("aria-label", f.label);
+      if (f.href) node.href = f.href;
+      box.appendChild(node);
+    });
+    document.body.appendChild(box);
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var mount = document.getElementById("sphinx-quiz-app");
     if (mount && window.SPHINX_QUIZ_DATA) {
       window.sphinxQuiz = new Quiz(mount, window.SPHINX_QUIZ_DATA);
+      renderLangSwitcher(window.SPHINX_QUIZ_DATA);
     }
   });
 })();

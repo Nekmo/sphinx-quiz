@@ -299,6 +299,42 @@ body.sq-app-active .quiz-page-footer {
   cursor: pointer;
   z-index: 3;
 }
+.sq-lang {
+  position: fixed;
+  top: 1rem;
+  right: 1.4rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 6;
+}
+.sq-lang .sq-flag {
+  display: block;
+  width: 30px;
+  height: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+  opacity: 0.5;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.sq-lang a.sq-flag {
+  cursor: pointer;
+}
+.sq-lang a.sq-flag:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+.sq-lang .sq-flag-active {
+  opacity: 1;
+  box-shadow: 0 0 0 2px var(--sq-text);
+  cursor: default;
+}
+.sq-lang .sq-flag svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 #sphinx-quiz-app .sq-cursor-static {
   animation: none;
 }

@@ -22,11 +22,16 @@ Always full-rebuild after editing questions: an incremental build only
 re-reads the changed doc, so `quiz-data.js` ends up with just that doc's
 questions. `rm -rf _build` first.
 
-Spanish site (separate static build):
+Combined bilingual site (English at `/`, Spanish nested under `/es/`):
 ```bash
 ../.venv/bin/pip install -e '.[i18n]'                # sphinx-intl, once
-make -C python-core-challenge html-es                 # → _build/html-es/html
+make -C python-core-challenge site SPHINXBUILD=../.venv/bin/sphinx-build
+(cd python-core-challenge/_build/html && python -m http.server 8642)
 ```
+`make site` builds en into `_build/html`, builds es, and copies it into
+`_build/html/es`. Flags top-right (rendered by `quiz.js`, `renderLangSwitcher`)
+switch languages: en's ES flag → `es/`, es's EN flag → `../`. `make html-es`
+still produces a Spanish-only build in `_build/html-es` if needed.
 After editing/adding questions, refresh the catalogs:
 ```bash
 cd python-core-challenge
@@ -98,8 +103,10 @@ Data flows in one direction: rst → doctree markers → JSON payload → SPA.
 
 - Source content in English (project `language = 'en'`; UI strings follow
   `data.language`, `es` translations exist in `quiz.js`). A full es-ES
-  question translation lives in `locale/es/` (gettext); build it with
-  `make html-es` — see Commands.
+  question translation lives in `locale/es/` (gettext); build the combined
+  bilingual site with `make site` — see Commands. The top-right flag switcher
+  (`.sq-lang` in quiz.js/css) is a deliberate exception to the monocolor-icon
+  rule: real multicolor UK/Spain SVG flags, per user request.
 - Kahoot palette (`PALETTE` in quiz.js); solid-color borderless cards;
   mono pill buttons (yellow outline = primary); single blue for
   breakdown bars; monocolor SVG icons/images only.
