@@ -184,7 +184,7 @@ body.sq-app-active .quiz-page-footer {
 }
 @keyframes sq-card-deal {
   from {
-    transform: rotate(0deg) translateY(60vh);
+    transform: rotate(-7deg) translateY(60vh);
     opacity: 0;
   }
 }
@@ -956,15 +956,21 @@ body.sq-app-active .quiz-page-footer {
   #sphinx-quiz-app .sq-fan-card {
     --card-rotate: 0deg;
     --card-lift: 0px;
+    --card-tilt: 0deg;
     width: calc(33.33% - 0.7rem);
     margin: 0;
     padding: 0.7rem;
     border-radius: 12px;
-    transform: none;
+    transform: rotate(var(--card-tilt));
   }
+  /* Slight alternating tilts, like cards dropped on a table. */
+  #sphinx-quiz-app .sq-fan-card:nth-child(odd) { --card-tilt: -2.4deg; }
+  #sphinx-quiz-app .sq-fan-card:nth-child(even) { --card-tilt: 2deg; }
+  #sphinx-quiz-app .sq-fan-card:nth-child(3n) { --card-tilt: -1.2deg; }
+  #sphinx-quiz-app .sq-fan-card:nth-child(4n) { --card-tilt: 2.8deg; }
   #sphinx-quiz-app .sq-fan-card:hover,
   #sphinx-quiz-app .sq-fan-card:focus-visible {
-    transform: translateY(-8px) scale(1.04);
+    transform: rotate(var(--card-tilt)) translateY(-8px) scale(1.04);
   }
   #sphinx-quiz-app .sq-fan-name {
     margin-bottom: 0.4rem;
