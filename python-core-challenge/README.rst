@@ -2,9 +2,23 @@ Python Core Challenge
 =====================
 
 Example quiz project for the ``sphinx_quiz`` extension: a static,
-Kahoot-like quiz about core Python (syntax, builtins, OOP) with three
-levels, per-question timer, Monty Python results screen and shareable
-results.
+Kahoot-like quiz about core Python with three levels, per-question
+timer, Monty Python results screen and shareable results.
+
+Categories
+----------
+
+``Mixed``
+    All categories, randomly sampled.
+``syntax``
+    Unexpected uses of the syntax and little-known or rarely used
+    features.
+``builtins``
+    Functions and properties of the Python core.
+``library``
+    Python core libraries plus the best-known, essential ones.
+``culture``
+    History of the language, trivia, and Monty Python content.
 
 Build and play
 --------------
@@ -27,16 +41,17 @@ Project layout
 
 ``index.rst``
     Cover page: the ``quick-select-*`` and ``quick-timer`` directives
-    that define the setup screen (levels and categories are derived
-    from the questions with ``*``; harder levels are sampled more often
-    via ``data-weights``).
+    that define the setup screen. Categories are listed explicitly (in
+    display order); levels are derived from the questions with ``*``
+    and harder levels are sampled more often via ``data-weights``.
 
-``syntax.rst`` / ``builtins.rst`` / ``oop.rst``
-    Question banks. Each file holds sections marked with
-    ``quiz-section`` (category + level) containing question sections:
-    ``quiz-question`` + optional code block + ``quiz-choices`` + an
-    *Answer* subsection with the explanation. ``builtins.rst`` includes
-    a multiple-answer question (``:data-correct: 1, 2, 4``).
+``syntax.rst`` / ``builtins.rst`` / ``library.rst`` / ``culture.rst``
+    Question banks, one per category. Each file holds sections marked
+    with ``quiz-section`` (category + level) containing question
+    sections: ``quiz-question`` + optional code block +
+    ``quiz-choices`` + an *Answer* subsection with the explanation.
+    ``builtins.rst`` includes a multiple-answer question
+    (``:data-correct: 1, 2, 4``).
 
 ``transitions.rst``
     Post-answer screens for success/failure, including time-based ones

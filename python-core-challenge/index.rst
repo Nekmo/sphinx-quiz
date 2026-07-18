@@ -19,7 +19,10 @@ Python Core Challenge
    :data-include-all: true
    :data-default: all
 
-   *
+   syntax
+   builtins
+   library
+   culture
 
 .. quick-select-num-questions::
    :data-default: 10

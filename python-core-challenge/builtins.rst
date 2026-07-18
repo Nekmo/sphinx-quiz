@@ -49,6 +49,27 @@ Answer
 ``sorted``, ``list`` and ``str.split`` return lists. ``reversed`` returns
 a **lazy iterator** (``list_reverseiterator``), not a list.
 
+Which method is called by ``len(obj)``?
+=======================================
+
+.. quiz-question::
+   :data-seconds: 20
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * ``obj.length()``
+   * ``obj.__len__()``
+   * ``obj.__size__()``
+   * ``obj.count()``
+
+Answer
+------
+
+``len`` delegates to the ``__len__`` dunder method. It must return a
+non-negative ``int``, or ``len`` raises ``TypeError``.
+
 What does ``any([])`` return?
 =============================
 

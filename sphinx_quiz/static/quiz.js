@@ -8,6 +8,7 @@
       of: "of",
       mixed: "Mix",
       all: "All",
+      allCategory: "Mixed",
       categoryLabel: "Category",
       levelLabel: "Level",
       next: "Next question",
@@ -39,6 +40,7 @@
       of: "de",
       mixed: "Mix",
       all: "Todas",
+      allCategory: "Mixto",
       categoryLabel: "Categoría",
       levelLabel: "Nivel",
       next: "Siguiente pregunta",
@@ -267,7 +269,7 @@
       card.style.animationDelay = 0.15 * i + "s";
       card.appendChild(el("span", "sq-fan-deco", "&gt;&gt;&gt;"));
       card.appendChild(
-        el("span", "sq-fan-name", category === "all" ? self.t.all : category)
+        el("span", "sq-fan-name", category === "all" ? self.t.allCategory : category)
       );
       card.addEventListener("click", function () {
         self.settings.category = category;
@@ -844,7 +846,7 @@
       var categoryCard = el(
         "span",
         "sq-info-card",
-        settings.category === "all" ? t.all : settings.category
+        settings.category === "all" ? t.allCategory : settings.category
       );
       categoryCard.style.setProperty("--card-color", this.categoryColor(settings.category));
       categoryRow.appendChild(categoryCard);
