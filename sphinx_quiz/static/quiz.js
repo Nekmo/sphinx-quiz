@@ -34,6 +34,7 @@
       correctAnswer: "Correct answer",
       yourAnswer: "Your answer",
       off: "OFF",
+      levels: { easy: "Easy", medium: "Medium", hard: "Hard" },
     },
     es: {
       question: "Pregunta",
@@ -66,8 +67,15 @@
       correctAnswer: "Respuesta correcta",
       yourAnswer: "Tu respuesta",
       off: "OFF",
+      levels: { easy: "Fácil", medium: "Medio", hard: "Difícil" },
     },
   };
+
+  /* Display label for a level value, falling back to the raw value. */
+  function levelName(t, value) {
+    if (value === "all") return t.mixed;
+    return (t.levels && t.levels[value]) || value;
+  }
 
   /* Kahoot-like palette for categories and choice letters. */
   var PALETTE = ["#e21b3c", "#1368ce", "#d89e00", "#26890c", "#9c27b0", "#f4511e"];
@@ -284,7 +292,7 @@
     if (levels.length) {
       var chips = el("div", "sq-chips");
       levels.forEach(function (level) {
-        var chip = el("button", "sq-chip", level === "all" ? t.mixed : level);
+        var chip = el("button", "sq-chip", levelName(t, level));
         chip.type = "button";
         chip.style.setProperty("--chip-color", self.levelColor(level));
         if (level === self.settings.level) chip.classList.add("sq-chip-active");
@@ -772,14 +780,14 @@
     return groups;
   };
 
-  Quiz.prototype.breakdownBlock = function (title, groups, names) {
+  Quiz.prototype.breakdownBlock = function (title, groups, names, labelFn) {
     if (names.length < 2) return null;
     var block = el("div", "sq-breakdown");
     block.appendChild(el("h3", "sq-breakdown-title", title));
     names.forEach(function (name) {
       var group = groups[name];
       var row = el("div", "sq-breakdown-row");
-      row.appendChild(el("span", "sq-breakdown-name", name));
+      row.appendChild(el("span", "sq-breakdown-name", labelFn ? labelFn(name) : name));
       var bar = el("div", "sq-breakdown-bar");
       var fill = el("div", "sq-breakdown-fill");
       fill.style.width = (group.hits / group.total) * 100 + "%";
@@ -857,7 +865,7 @@
       var levelChip = el(
         "span",
         "sq-chip sq-info-chip",
-        settings.level === "all" ? t.mixed : settings.level
+        levelName(t, settings.level)
       );
       levelChip.style.setProperty("--chip-color", this.levelColor(settings.level));
       info.appendChild(levelRow);
@@ -886,7 +894,9 @@
     var byCategory = this.breakdownBlock(t.byCategory, categories, Object.keys(categories));
     if (byCategory) left.appendChild(byCategory);
     var levels = this.breakdown("level");
-    var byLevel = this.breakdownBlock(t.byLevel, levels, sortLevels(Object.keys(levels)));
+    var byLevel = this.breakdownBlock(t.byLevel, levels, sortLevels(Object.keys(levels)), function (name) {
+      return levelName(t, name);
+    });
     if (byLevel) left.appendChild(byLevel);
     grid.appendChild(left);
 

@@ -11,7 +11,7 @@ What happens when you run this code?
 ====================================
 
 .. quiz-question::
-   :data-seconds: 40
+   :data-seconds: 60
 
 .. code-block:: python
 
@@ -32,32 +32,11 @@ Answer
 This Easter egg answers the perennial request to replace indentation with
 curly braces. Attempting it raises ``SyntaxError: not a chance``.
 
-``import antigravity`` opens which *xkcd* comic?
-================================================
-
-.. quiz-question::
-   :data-seconds: 40
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 2
-
-   * xkcd #303.
-   * xkcd #353.
-   * xkcd #149.
-   * xkcd #927.
-
-Answer
-------
-
-``import antigravity`` opens *xkcd* comic #353, titled "Python", in which a
-character flies after discovering the language.
-
 How is the Zen of Python text stored inside the ``this`` module?
 ================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -78,7 +57,7 @@ Which earlier language, which Guido helped develop at CWI, strongly influenced P
 ======================================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -100,7 +79,7 @@ In which country did Guido van Rossum begin developing Python at CWI?
 =====================================================================
 
 .. quiz-question::
-   :data-seconds: 40
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -122,7 +101,7 @@ What is the final aphorism of the Zen of Python?
 ================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -139,32 +118,11 @@ Answer
 The Zen closes on an upbeat note: "Namespaces are one honking great idea --
 let's do more of those!"
 
-How many aphorisms does the Zen of Python contain?
-==================================================
-
-.. quiz-question::
-   :data-seconds: 40
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 3
-
-   * 10.
-   * 15.
-   * 19.
-   * 42.
-
-Answer
-------
-
-The Zen lists 19 aphorisms -- a running joke being that Tim Peters left the
-"20th" for the reader (or the BDFL) to fill in.
-
 Which special ("dunder") method implements the ``<`` operator?
 ==============================================================
 
 .. quiz-question::
-   :data-seconds: 40
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -206,7 +164,7 @@ Which Python release first introduced f-strings?
 ================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -227,7 +185,7 @@ Which Python release introduced the walrus operator (``:=``)?
 =============================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -247,7 +205,7 @@ In which Python release did PEP 484 type hints first become available?
 ======================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -268,7 +226,7 @@ What was the standard tool for migrating Python 2 code to Python 3?
 ===================================================================
 
 .. quiz-question::
-   :data-seconds: 40
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -289,7 +247,7 @@ Which of these is a real feature you can enable with ``from __future__ import``?
 ================================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -311,7 +269,7 @@ The debate over which feature is often cited as a factor in Guido stepping down 
 ========================================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -332,7 +290,7 @@ After Guido stepped down, how is Python's language governance now organized?
 ============================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -353,7 +311,7 @@ The Easter egg ``from __future__ import barry_as_FLUFL`` re-enables which old op
 =======================================================================================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 60
 
 .. code-block:: python
 
@@ -380,7 +338,7 @@ Which pair of names, alongside Guido van Rossum, are listed as authors of PEP 8?
 ================================================================================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -422,7 +380,7 @@ Which value does the Zen of Python associate specifically with "you're Dutch"?
 ==============================================================================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -439,3 +397,47 @@ Answer
 The Zen follows "There should be one-- and preferably only one --obvious
 way to do it." with the wink "Although that way may not be obvious at first
 unless you're Dutch." -- a nod to Guido's nationality.
+
+At which company did Guido van Rossum work from 2005 to 2012?
+=============================================================
+
+.. quiz-question::
+   :data-seconds: 30
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * Microsoft.
+   * Dropbox.
+   * Google.
+   * Red Hat.
+
+Answer
+------
+
+Guido van Rossum worked at Google from 2005 to 2012 (where he spent part of
+his time on Python), then at Dropbox until 2019, and later joined Microsoft
+in 2020.
+
+Which experimental CPython build, added in Python 3.13, can run without the GIL?
+================================================================================
+
+.. quiz-question::
+   :data-seconds: 35
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * The "stackless" build.
+   * The "free-threaded" (no-GIL) build.
+   * The "async" build.
+   * The "JIT-only" build.
+
+Answer
+------
+
+PEP 703 introduced an experimental *free-threaded* build of CPython in
+Python 3.13 that can run without the Global Interpreter Lock, allowing true
+parallelism across threads.

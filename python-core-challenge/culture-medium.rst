@@ -11,7 +11,7 @@ What does "BDFL" stand for?
 ===========================
 
 .. quiz-question::
-   :data-seconds: 25
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -33,7 +33,7 @@ What is the subject of PEP 8?
 =============================
 
 .. quiz-question::
-   :data-seconds: 25
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -54,7 +54,7 @@ What is the subject of PEP 20?
 ==============================
 
 .. quiz-question::
-   :data-seconds: 25
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -75,7 +75,7 @@ Who wrote the Zen of Python?
 ============================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -96,7 +96,7 @@ What did PEP 484 introduce to Python?
 =====================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -117,7 +117,7 @@ Which feature was introduced by PEP 572?
 =========================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -180,7 +180,7 @@ Who created Timsort, Python's built-in sorting algorithm?
 =========================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -223,7 +223,7 @@ In what year was Python 2.0 released?
 =====================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -244,7 +244,7 @@ In what year was Python 3.0 released?
 =====================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -286,7 +286,7 @@ What is CPython?
 ================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 35
 
 .. quiz-choices::
    :data-randomize: true
@@ -307,7 +307,7 @@ In what year did Guido van Rossum step down as BDFL?
 ====================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -328,7 +328,7 @@ What is the purpose of the ``__future__`` module?
 ==================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -349,7 +349,7 @@ In Python jargon, what does "dunder" mean?
 ==========================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -370,28 +370,29 @@ Which Python implementation runs on the Java Virtual Machine?
 =============================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
-   :data-correct: 3
+   :data-correct: 2
 
-   * CPython.
-   * PyPy.
+   * JavaPy.
    * Jython.
-   * IronPython.
+   * Serpent.
+   * PyBridge.
 
 Answer
 ------
 
-Jython is a Python implementation that runs on the Java Virtual Machine and
-can interoperate with Java code.
+Jython is the real Python implementation that runs on the Java Virtual
+Machine and can interoperate with Java code. "JavaPy", "Serpent", and
+"PyBridge" are made-up names.
 
 Which alternative Python implementation is known for its just-in-time (JIT) compiler?
 =====================================================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -412,7 +413,7 @@ Which line about "one obvious way" appears in the Zen of Python?
 ================================================================
 
 .. quiz-question::
-   :data-seconds: 30
+   :data-seconds: 40
 
 .. quiz-choices::
    :data-randomize: true
@@ -428,3 +429,176 @@ Answer
 
 This aphorism captures Python's preference for a single, clear approach --
 often contrasted with Perl's "there's more than one way to do it".
+
+What does ``import this`` display?
+==================================
+
+.. quiz-question::
+   :data-seconds: 40
+
+.. code-block:: python
+
+   import this
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * A list of installed packages.
+   * The current date and time.
+   * The Zen of Python.
+   * Nothing at all.
+
+Answer
+------
+
+``import this`` prints *The Zen of Python*, a short collection of guiding
+aphorisms for writing Python code.
+
+Why do Python examples so often use the word "spam"?
+====================================================
+
+.. quiz-question::
+   :data-seconds: 35
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 4
+
+   * It is an acronym for "sample program".
+   * It refers to unwanted email.
+   * It is short for "spa memory".
+   * It is a nod to a *Monty Python* sketch.
+
+Answer
+------
+
+The classic placeholder names ``spam`` and ``eggs`` come from the *Monty
+Python* "Spam" sketch, keeping with the language's namesake.
+
+What does ``import antigravity`` do?
+====================================
+
+.. quiz-question::
+   :data-seconds: 40
+
+.. code-block:: python
+
+   import antigravity
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 4
+
+   * Raises an ImportError.
+   * Disables Python's garbage collector.
+   * Prints the Zen of Python.
+   * Opens an *xkcd* webcomic in your browser.
+
+Answer
+------
+
+``import antigravity`` is an Easter egg that opens the *xkcd* comic about
+Python in your web browser.
+
+Which line is genuinely part of the Zen of Python?
+==================================================
+
+.. quiz-question::
+   :data-seconds: 35
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * "Move fast and break things."
+   * "Write once, run anywhere."
+   * "Readability counts."
+   * "There is more than one way to do it."
+
+Answer
+------
+
+"Readability counts." is one of the aphorisms in *The Zen of Python*. The
+last one -- about many ways to do it -- is actually a Perl motto.
+
+Besides ``spam``, which word is the other classic Python placeholder name?
+==========================================================================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 4
+
+   * ``foo``
+   * ``bar``
+   * ``baz``
+   * ``eggs``
+
+Answer
+------
+
+``spam`` and ``eggs`` go together, both borrowed from *Monty Python*.
+
+Complete the first line of the Zen of Python: "Beautiful is better than ___."
+=============================================================================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 4
+
+   * "boring".
+   * "complex".
+   * "clever".
+   * "ugly".
+
+Answer
+------
+
+The Zen of Python opens with "Beautiful is better than ugly."
+
+Which of these is a real Python Easter egg?
+============================================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * ``import pizza``
+   * ``import this``
+   * ``import rainbow``
+   * ``import cake``
+
+Answer
+------
+
+``import this`` prints *The Zen of Python*; the others are not real modules.
+
+By what nickname was Guido van Rossum long known in the Python community?
+=========================================================================
+
+.. quiz-question::
+   :data-seconds: 30
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * The Architect.
+   * The Chief Snake.
+   * The BDFL.
+   * The Grand Wizard.
+
+Answer
+------
+
+Guido was the "BDFL" -- Benevolent Dictator For Life -- until he stepped
+down from that role in 2018.

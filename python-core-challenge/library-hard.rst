@@ -11,7 +11,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 50
 
 .. code-block::
 
@@ -38,7 +38,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 70
 
 .. code-block::
 
@@ -69,7 +69,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 65
 
 .. code-block::
 
@@ -97,7 +97,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 55
 
 .. code-block::
 
@@ -152,7 +152,7 @@ What happens when this runs?
 ============================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 65
 
 .. code-block::
 
@@ -182,7 +182,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 45
 
 .. code-block::
 
@@ -209,7 +209,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 65
 
 .. code-block::
 
@@ -238,7 +238,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 40
+   :data-seconds: 45
 
 .. code-block::
 
@@ -264,7 +264,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 40
 
 .. code-block::
 
@@ -291,7 +291,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 55
 
 .. code-block::
 
@@ -321,7 +321,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 50
 
 .. code-block::
 
@@ -347,7 +347,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 55
 
 .. code-block::
 
@@ -376,7 +376,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 45
 
 .. code-block::
 
@@ -430,7 +430,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 70
 
 .. code-block::
 
@@ -463,7 +463,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 40
 
 .. code-block::
 
@@ -490,7 +490,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 50
+   :data-seconds: 70
 
 .. code-block::
 
@@ -518,7 +518,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 50
 
 .. code-block::
 
@@ -546,7 +546,7 @@ What does this code print?
 ==========================
 
 .. quiz-question::
-   :data-seconds: 45
+   :data-seconds: 50
 
 .. code-block::
 

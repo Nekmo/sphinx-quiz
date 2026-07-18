@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python Core Challenge\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 05:23+0200\n"
+"POT-Creation-Date: 2026-07-18 06:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -53,7 +53,11 @@ msgstr "Brave Default Function Loader."
 #: ../../../culture-medium.rst:280 ../../../culture-medium.rst:301
 #: ../../../culture-medium.rst:322 ../../../culture-medium.rst:343
 #: ../../../culture-medium.rst:364 ../../../culture-medium.rst:385
-#: ../../../culture-medium.rst:406 ../../../culture-medium.rst:427
+#: ../../../culture-medium.rst:407 ../../../culture-medium.rst:428
+#: ../../../culture-medium.rst:453 ../../../culture-medium.rst:474
+#: ../../../culture-medium.rst:499 ../../../culture-medium.rst:520
+#: ../../../culture-medium.rst:541 ../../../culture-medium.rst:561
+#: ../../../culture-medium.rst:581 ../../../culture-medium.rst:601
 msgid "Answer"
 msgstr "Respuesta"
 
@@ -77,6 +81,7 @@ msgid "Type hints."
 msgstr "Las anotaciones de tipo."
 
 #: ../../../culture-medium.rst:43 ../../../culture-medium.rst:64
+#: ../../../culture-medium.rst:449
 msgid "The Zen of Python."
 msgstr "El Zen de Python."
 
@@ -460,30 +465,32 @@ msgstr ""
 "¿Qué implementación de Python se ejecuta sobre la Java Virtual Machine?"
 
 #: ../../../culture-medium.rst:379
-msgid "CPython."
-msgstr "CPython."
+msgid "JavaPy."
+msgstr "JavaPy."
 
-#: ../../../culture-medium.rst:380 ../../../culture-medium.rst:402
-msgid "PyPy."
-msgstr "PyPy."
-
-#: ../../../culture-medium.rst:381 ../../../culture-medium.rst:400
+#: ../../../culture-medium.rst:380 ../../../culture-medium.rst:401
 msgid "Jython."
 msgstr "Jython."
 
-#: ../../../culture-medium.rst:382 ../../../culture-medium.rst:401
-msgid "IronPython."
-msgstr "IronPython."
+#: ../../../culture-medium.rst:381
+msgid "Serpent."
+msgstr "Serpent."
+
+#: ../../../culture-medium.rst:382
+msgid "PyBridge."
+msgstr "PyBridge."
 
 #: ../../../culture-medium.rst:387
 msgid ""
-"Jython is a Python implementation that runs on the Java Virtual Machine and "
-"can interoperate with Java code."
+"Jython is the real Python implementation that runs on the Java Virtual "
+"Machine and can interoperate with Java code. \"JavaPy\", \"Serpent\", and "
+"\"PyBridge\" are made-up names."
 msgstr ""
-"Jython es una implementación de Python que se ejecuta sobre la Java Virtual "
-"Machine y puede interoperar con código Java."
+"Jython es la implementación real de Python que se ejecuta sobre la Máquina "
+"Virtual de Java y puede interoperar con código Java. \"JavaPy\", \"Serpent\""
+" y \"PyBridge\" son nombres inventados."
 
-#: ../../../culture-medium.rst:391
+#: ../../../culture-medium.rst:392
 msgid ""
 "Which alternative Python implementation is known for its just-in-time (JIT) "
 "compiler?"
@@ -491,11 +498,19 @@ msgstr ""
 "¿Qué implementación alternativa de Python es conocida por su compilador "
 "just-in-time (JIT)?"
 
+#: ../../../culture-medium.rst:402
+msgid "IronPython."
+msgstr "IronPython."
+
 #: ../../../culture-medium.rst:403
+msgid "PyPy."
+msgstr "PyPy."
+
+#: ../../../culture-medium.rst:404
 msgid "MicroPython."
 msgstr "MicroPython."
 
-#: ../../../culture-medium.rst:408
+#: ../../../culture-medium.rst:409
 msgid ""
 "PyPy is an alternative implementation featuring a just-in-time compiler, "
 "which can make many Python programs run significantly faster."
@@ -504,31 +519,252 @@ msgstr ""
 "time, capaz de hacer que muchos programas Python se ejecuten notablemente "
 "más rápido."
 
-#: ../../../culture-medium.rst:412
+#: ../../../culture-medium.rst:413
 msgid "Which line about \"one obvious way\" appears in the Zen of Python?"
 msgstr "¿Qué frase sobre \"una forma obvia\" aparece en el Zen de Python?"
 
-#: ../../../culture-medium.rst:421
+#: ../../../culture-medium.rst:422
 msgid "\"There is always a better way to do it.\""
 msgstr "\"Siempre hay una forma mejor de hacerlo.\""
 
-#: ../../../culture-medium.rst:422
+#: ../../../culture-medium.rst:423
 msgid "\"There should be one-- and preferably only one --obvious way to do it.\""
 msgstr ""
 "\"Debería haber una -y preferiblemente solo una- forma obvia de hacerlo.\""
 
-#: ../../../culture-medium.rst:423
+#: ../../../culture-medium.rst:424
 msgid "\"Any way that works is the right way.\""
 msgstr "\"Cualquier forma que funcione es la correcta.\""
 
-#: ../../../culture-medium.rst:424
+#: ../../../culture-medium.rst:425
 msgid "\"The fastest way is the only way.\""
 msgstr "\"La forma más rápida es la única forma.\""
 
-#: ../../../culture-medium.rst:429
+#: ../../../culture-medium.rst:430
 msgid ""
 "This aphorism captures Python's preference for a single, clear approach -- "
 "often contrasted with Perl's \"there's more than one way to do it\"."
 msgstr ""
 "Este aforismo refleja la preferencia de Python por un único enfoque claro, a"
 " menudo contrastado con el lema de Perl \"hay más de una forma de hacerlo\"."
+
+#: ../../../culture-medium.rst:434
+msgid "What does ``import this`` display?"
+msgstr "¿Qué muestra ``import this``?"
+
+#: ../../../culture-medium.rst:447
+msgid "A list of installed packages."
+msgstr "Una lista de los paquetes instalados."
+
+#: ../../../culture-medium.rst:448
+msgid "The current date and time."
+msgstr "La fecha y hora actuales."
+
+#: ../../../culture-medium.rst:450
+msgid "Nothing at all."
+msgstr "Nada en absoluto."
+
+#: ../../../culture-medium.rst:455
+msgid ""
+"``import this`` prints *The Zen of Python*, a short collection of guiding "
+"aphorisms for writing Python code."
+msgstr ""
+"``import this`` imprime *El Zen de Python*, una breve colección de aforismos"
+" que guían la escritura de código Python."
+
+#: ../../../culture-medium.rst:459
+msgid "Why do Python examples so often use the word \"spam\"?"
+msgstr "¿Por qué los ejemplos de Python usan tan a menudo la palabra \"spam\"?"
+
+#: ../../../culture-medium.rst:468
+msgid "It is an acronym for \"sample program\"."
+msgstr "Es un acrónimo de \"sample program\"."
+
+#: ../../../culture-medium.rst:469
+msgid "It refers to unwanted email."
+msgstr "Se refiere al correo no deseado."
+
+#: ../../../culture-medium.rst:470
+msgid "It is short for \"spa memory\"."
+msgstr "Es una abreviatura de \"spa memory\"."
+
+#: ../../../culture-medium.rst:471
+msgid "It is a nod to a *Monty Python* sketch."
+msgstr "Es un guiño a un sketch de *Monty Python*."
+
+#: ../../../culture-medium.rst:476
+msgid ""
+"The classic placeholder names ``spam`` and ``eggs`` come from the *Monty "
+"Python* \"Spam\" sketch, keeping with the language's namesake."
+msgstr ""
+"Los clásicos nombres de relleno ``spam`` y ``eggs`` provienen del sketch "
+"\"Spam\" de *Monty Python*, en consonancia con el origen del nombre del "
+"lenguaje."
+
+#: ../../../culture-medium.rst:480
+msgid "What does ``import antigravity`` do?"
+msgstr "¿Qué hace ``import antigravity``?"
+
+#: ../../../culture-medium.rst:493
+msgid "Raises an ImportError."
+msgstr "Lanza un ImportError."
+
+#: ../../../culture-medium.rst:494
+msgid "Disables Python's garbage collector."
+msgstr "Desactiva el recolector de basura de Python."
+
+#: ../../../culture-medium.rst:495
+msgid "Prints the Zen of Python."
+msgstr "Imprime el Zen de Python."
+
+#: ../../../culture-medium.rst:496
+msgid "Opens an *xkcd* webcomic in your browser."
+msgstr "Abre un webcómic de *xkcd* en tu navegador."
+
+#: ../../../culture-medium.rst:501
+msgid ""
+"``import antigravity`` is an Easter egg that opens the *xkcd* comic about "
+"Python in your web browser."
+msgstr ""
+"``import antigravity`` es un huevo de pascua que abre en tu navegador el "
+"cómic de *xkcd* sobre Python."
+
+#: ../../../culture-medium.rst:505
+msgid "Which line is genuinely part of the Zen of Python?"
+msgstr "¿Qué frase forma parte realmente del Zen de Python?"
+
+#: ../../../culture-medium.rst:514
+msgid "\"Move fast and break things.\""
+msgstr "\"Muévete rápido y rompe cosas.\""
+
+#: ../../../culture-medium.rst:515
+msgid "\"Write once, run anywhere.\""
+msgstr "\"Escríbelo una vez, ejecútalo donde sea.\""
+
+#: ../../../culture-medium.rst:516
+msgid "\"Readability counts.\""
+msgstr "\"La legibilidad cuenta.\""
+
+#: ../../../culture-medium.rst:517
+msgid "\"There is more than one way to do it.\""
+msgstr "\"There is more than one way to do it.\""
+
+#: ../../../culture-medium.rst:522
+msgid ""
+"\"Readability counts.\" is one of the aphorisms in *The Zen of Python*. The "
+"last one -- about many ways to do it -- is actually a Perl motto."
+msgstr ""
+"\"La legibilidad cuenta.\" es uno de los aforismos de *El Zen de Python*. El"
+" último -sobre las muchas formas de hacerlo- es en realidad un lema de Perl."
+
+#: ../../../culture-medium.rst:526
+msgid ""
+"Besides ``spam``, which word is the other classic Python placeholder name?"
+msgstr ""
+"Además de ``spam``, ¿cuál es el otro clásico nombre de relleno de Python?"
+
+#: ../../../culture-medium.rst:535
+msgid "``foo``"
+msgstr "``foo``"
+
+#: ../../../culture-medium.rst:536
+msgid "``bar``"
+msgstr "``bar``"
+
+#: ../../../culture-medium.rst:537
+msgid "``baz``"
+msgstr "``baz``"
+
+#: ../../../culture-medium.rst:538
+msgid "``eggs``"
+msgstr "``eggs``"
+
+#: ../../../culture-medium.rst:543
+msgid "``spam`` and ``eggs`` go together, both borrowed from *Monty Python*."
+msgstr "``spam`` y ``eggs`` van juntos, ambos tomados de *Monty Python*."
+
+#: ../../../culture-medium.rst:546
+msgid ""
+"Complete the first line of the Zen of Python: \"Beautiful is better than "
+"___.\""
+msgstr "Completa la primera frase del Zen de Python: \"Bello es mejor que ___.\""
+
+#: ../../../culture-medium.rst:555
+msgid "\"boring\"."
+msgstr "\"aburrido\"."
+
+#: ../../../culture-medium.rst:556
+msgid "\"complex\"."
+msgstr "\"complejo\"."
+
+#: ../../../culture-medium.rst:557
+msgid "\"clever\"."
+msgstr "\"ingenioso\"."
+
+#: ../../../culture-medium.rst:558
+msgid "\"ugly\"."
+msgstr "\"feo\"."
+
+#: ../../../culture-medium.rst:563
+msgid "The Zen of Python opens with \"Beautiful is better than ugly.\""
+msgstr "El Zen de Python empieza con \"Bello es mejor que feo.\""
+
+#: ../../../culture-medium.rst:566
+msgid "Which of these is a real Python Easter egg?"
+msgstr "¿Cuál de estos es un huevo de pascua real de Python?"
+
+#: ../../../culture-medium.rst:575
+msgid "``import pizza``"
+msgstr "``import pizza``"
+
+#: ../../../culture-medium.rst:576
+msgid "``import this``"
+msgstr "``import this``"
+
+#: ../../../culture-medium.rst:577
+msgid "``import rainbow``"
+msgstr "``import rainbow``"
+
+#: ../../../culture-medium.rst:578
+msgid "``import cake``"
+msgstr "``import cake``"
+
+#: ../../../culture-medium.rst:583
+msgid ""
+"``import this`` prints *The Zen of Python*; the others are not real modules."
+msgstr ""
+"``import this`` imprime *El Zen de Python*; los demás no son módulos reales."
+
+#: ../../../culture-medium.rst:586
+msgid ""
+"By what nickname was Guido van Rossum long known in the Python community?"
+msgstr ""
+"¿Con qué apodo se conoció durante mucho tiempo a Guido van Rossum en la "
+"comunidad Python?"
+
+#: ../../../culture-medium.rst:595
+msgid "The Architect."
+msgstr "El Arquitecto."
+
+#: ../../../culture-medium.rst:596
+msgid "The Chief Snake."
+msgstr "La Serpiente Jefa."
+
+#: ../../../culture-medium.rst:597
+msgid "The BDFL."
+msgstr "El BDFL."
+
+#: ../../../culture-medium.rst:598
+msgid "The Grand Wizard."
+msgstr "El Gran Mago."
+
+#: ../../../culture-medium.rst:603
+msgid ""
+"Guido was the \"BDFL\" -- Benevolent Dictator For Life -- until he stepped "
+"down from that role in 2018."
+msgstr ""
+"Guido fue el \"BDFL\" -Benevolent Dictator For Life, dictador benévolo "
+"vitalicio- hasta que dejó ese cargo en 2018."
+
+#~ msgid "CPython."
+#~ msgstr "CPython."

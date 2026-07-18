@@ -11,7 +11,7 @@ Where does the name "Python" come from?
 =======================================
 
 .. quiz-question::
-   :data-seconds: 20
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
@@ -26,14 +26,13 @@ Answer
 ------
 
 Guido van Rossum named the language after *Monty Python's Flying Circus*,
-not the snake -- hence the recurring "spam" and Monty Python references in
-the docs.
+not the snake.
 
 Who created the Python programming language?
 ============================================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 20
 
 .. quiz-choices::
    :data-randomize: true
@@ -49,31 +48,6 @@ Answer
 
 Guido van Rossum started Python in late 1989 and released the first version
 in 1991.
-
-What does ``import this`` display?
-==================================
-
-.. quiz-question::
-   :data-seconds: 15
-
-.. code-block:: python
-
-   import this
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 3
-
-   * A list of installed packages.
-   * The current date and time.
-   * The Zen of Python.
-   * Nothing at all.
-
-Answer
-------
-
-``import this`` prints *The Zen of Python*, a short collection of guiding
-aphorisms for writing Python code.
 
 In what year was Python first released?
 =======================================
@@ -95,32 +69,11 @@ Answer
 
 Guido van Rossum published the first release of Python in 1991.
 
-Why do Python examples so often use the word "spam"?
-====================================================
-
-.. quiz-question::
-   :data-seconds: 20
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 4
-
-   * It is an acronym for "sample program".
-   * It refers to unwanted email.
-   * It is short for "spa memory".
-   * It is a nod to a *Monty Python* sketch.
-
-Answer
-------
-
-The classic placeholder names ``spam`` and ``eggs`` come from the *Monty
-Python* "Spam" sketch, keeping with the language's namesake.
-
 What is the standard file extension for Python source files?
 ============================================================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 20
 
 .. quiz-choices::
    :data-randomize: true
@@ -140,7 +93,7 @@ Which major version of Python is actively supported today?
 ===========================================================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 20
 
 .. quiz-choices::
    :data-randomize: true
@@ -168,43 +121,19 @@ What is the name of Python's official third-party package repository?
    :data-correct: 2
 
    * npm.
-   * PyPI (the Python Package Index).
-   * Maven Central.
+   * PyPI.
+   * PythonHouse.
    * CRAN.
 
 Answer
 ------
 
 PyPI, the Python Package Index, hosts the third-party packages you install
-with ``pip``.
+with ``pip``. npm belongs to Node.js and CRAN to R; "PythonHouse" is not a
+real thing.
 
-What does ``import antigravity`` do?
-====================================
-
-.. quiz-question::
-   :data-seconds: 20
-
-.. code-block:: python
-
-   import antigravity
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 4
-
-   * Raises an ImportError.
-   * Disables Python's garbage collector.
-   * Prints the Zen of Python.
-   * Opens an *xkcd* webcomic in your browser.
-
-Answer
-------
-
-``import antigravity`` is an Easter egg that opens the *xkcd* comic about
-Python in your web browser.
-
-Which line is genuinely part of the Zen of Python?
-==================================================
+What command do you normally use to install a third-party Python package?
+=========================================================================
 
 .. quiz-question::
    :data-seconds: 20
@@ -213,22 +142,85 @@ Which line is genuinely part of the Zen of Python?
    :data-randomize: true
    :data-correct: 3
 
-   * "Move fast and break things."
-   * "Write once, run anywhere."
-   * "Readability counts."
-   * "There is more than one way to do it."
+   * ``python get``
+   * ``apt install``
+   * ``pip install``
+   * ``import``
 
 Answer
 ------
 
-"Readability counts." is one of the aphorisms in *The Zen of Python*. The
-last one -- about many ways to do it -- is actually a Perl motto.
+``pip install <package>`` downloads a package from PyPI and installs it into
+your environment.
+
+What is the official website for the Python language?
+=====================================================
+
+.. quiz-question::
+   :data-seconds: 20
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * ``python.com``
+   * ``getpython.io``
+   * ``python.org``
+   * ``python.dev``
+
+Answer
+------
+
+``python.org`` is the official home of Python: downloads, documentation, and
+the news that surrounds the language.
+
+Which organization stewards the Python language today?
+======================================================
+
+.. quiz-question::
+   :data-seconds: 20
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * The Linux Foundation.
+   * The Python Software Foundation (PSF).
+   * Oracle.
+   * The Free Software Foundation.
+
+Answer
+------
+
+The Python Software Foundation (PSF) is the non-profit that holds the
+intellectual property and supports the Python community.
+
+Which of these is a popular Python web framework?
+=================================================
+
+.. quiz-question::
+   :data-seconds: 20
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * Laravel.
+   * Rails.
+   * Django.
+   * Spring.
+
+Answer
+------
+
+Django is one of the best-known Python web frameworks. Laravel is PHP, Rails
+is Ruby, and Spring is Java.
 
 What is the default prompt of Python's interactive interpreter?
 ===============================================================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 20
 
 .. quiz-choices::
    :data-randomize: true
@@ -248,7 +240,7 @@ What does Python's logo depict?
 ===============================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 20
 
 .. quiz-choices::
    :data-randomize: true
@@ -265,11 +257,53 @@ Answer
 The modern Python logo shows two stylized, intertwined snakes in blue and
 yellow.
 
+How does Python group blocks of code?
+=====================================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 3
+
+   * With ``begin`` and ``end`` keywords.
+   * With curly braces ``{ }``.
+   * With indentation.
+   * With parentheses ``( )``.
+
+Answer
+------
+
+Python uses indentation (leading whitespace) to define blocks, instead of
+braces or keywords.
+
+Is Python case-sensitive?
+=========================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * No, ``Name`` and ``name`` are the same.
+   * Yes, ``Name`` and ``name`` are different.
+   * Only inside functions.
+   * Only for built-in names.
+
+Answer
+------
+
+Python is case-sensitive: ``Name``, ``name``, and ``NAME`` are three
+different identifiers.
+
 Python is best described as which kind of language?
 ===================================================
 
 .. quiz-question::
-   :data-seconds: 20
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -286,25 +320,47 @@ Answer
 Python is a high-level, interpreted language: you run source files directly
 without a separate compile step.
 
-Besides ``spam``, which word is the other classic Python placeholder name?
-==========================================================================
+How is typing handled in Python?
+================================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 25
 
 .. quiz-choices::
    :data-randomize: true
-   :data-correct: 4
+   :data-correct: 2
 
-   * ``foo``
-   * ``bar``
-   * ``baz``
-   * ``eggs``
+   * You must declare every variable's type.
+   * Variables are dynamically typed.
+   * Every variable is a string until converted.
+   * Types cannot change once assigned.
 
 Answer
 ------
 
-``spam`` and ``eggs`` go together, both borrowed from *Monty Python*.
+Python is dynamically typed: a variable takes the type of whatever value you
+assign to it, and that can change over time.
+
+What does the ``print()`` function do?
+======================================
+
+.. quiz-question::
+   :data-seconds: 25
+
+.. quiz-choices::
+   :data-randomize: true
+   :data-correct: 2
+
+   * Sends the text to the printer.
+   * Writes its arguments to standard output.
+   * Saves the text to a file.
+   * Returns the text without showing it.
+
+Answer
+------
+
+``print()`` writes its arguments to standard output (normally the screen),
+separated by spaces and followed by a newline.
 
 What is the name of the largest annual community Python conference?
 ===================================================================
@@ -327,35 +383,15 @@ Answer
 PyCon is the flagship community conference for Python, held in many
 countries around the world.
 
-Complete the first line of the Zen of Python: "Beautiful is better than ___."
-=============================================================================
-
-.. quiz-question::
-   :data-seconds: 20
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 4
-
-   * "boring".
-   * "complex".
-   * "clever".
-   * "ugly".
-
-Answer
-------
-
-The Zen of Python opens with "Beautiful is better than ugly."
-
 What does this program print?
 =============================
 
 .. quiz-question::
-   :data-seconds: 15
+   :data-seconds: 30
 
-.. code-block:: python
+.. code-block::
 
-   print("Hello, world!")
+    print("Hello, world!")
 
 .. quiz-choices::
    :data-randomize: true
@@ -376,7 +412,7 @@ Which statement about Python's licensing is true?
 =================================================
 
 .. quiz-question::
-   :data-seconds: 20
+   :data-seconds: 30
 
 .. quiz-choices::
    :data-randomize: true
@@ -392,44 +428,3 @@ Answer
 
 Python is free and open source, developed openly by the Python Software
 Foundation and a global community.
-
-Which of these is a real Python Easter egg?
-============================================
-
-.. quiz-question::
-   :data-seconds: 20
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 2
-
-   * ``import pizza``
-   * ``import this``
-   * ``import rainbow``
-   * ``import cake``
-
-Answer
-------
-
-``import this`` prints *The Zen of Python*; the others are not real modules.
-
-By what nickname was Guido van Rossum long known in the Python community?
-=========================================================================
-
-.. quiz-question::
-   :data-seconds: 20
-
-.. quiz-choices::
-   :data-randomize: true
-   :data-correct: 3
-
-   * The Architect.
-   * The Chief Snake.
-   * The BDFL.
-   * The Grand Wizard.
-
-Answer
-------
-
-Guido was the "BDFL" -- Benevolent Dictator For Life -- until he stepped
-down from that role in 2018.

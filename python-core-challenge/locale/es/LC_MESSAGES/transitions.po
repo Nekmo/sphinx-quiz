@@ -34,7 +34,7 @@ msgstr "¡Por los pelos!"
 
 #: ../../../transitions.rst:20
 msgid "You almost made it"
-msgstr "Casi lo consigues"
+msgstr "Casi se te escapa"
 
 #: ../../../transitions.rst:24
 msgid "Correct!"
