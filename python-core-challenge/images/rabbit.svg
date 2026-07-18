@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- ears -->
+  <path d="M84 78 Q76 40 84 22 Q96 42 92 76"/>
+  <path d="M116 78 Q124 40 116 22 Q104 42 108 76"/>
+  <!-- head -->
+  <path d="M70 108 a30 30 0 0 1 60 0 q0 22 -30 26 q-30 -4 -30 -26 Z"/>
+  <!-- eyes -->
+  <circle cx="88" cy="104" r="2.5"/>
+  <circle cx="112" cy="104" r="2.5"/>
+  <!-- nose -->
+  <path d="M100 116 v6"/>
+  <!-- fangs -->
+  <path d="M92 128 l3 12 3 -12 M106 128 l3 12 3 -12" stroke-width="4"/>
+  <!-- blood drip -->
+  <path d="M108 148 q0 10 6 12 q6 -2 6 -12 q-3 -6 -6 -6 q-3 0 -6 6 Z" stroke-width="4"/>
+  <!-- body & feet -->
+  <path d="M74 138 q-14 20 4 34 h44 q18 -14 4 -34" />
+  <path d="M78 172 q-8 4 -2 8 M122 172 q8 4 2 8" stroke-width="5"/>
+</svg>

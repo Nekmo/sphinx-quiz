@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- grip -->
+  <path d="M100 32 V48"/>
+  <!-- crossguard -->
+  <path d="M82 50 H118"/>
+  <!-- blade: two parallel edges into the stone -->
+  <path d="M97 52 V120 M103 52 V120"/>
+  <!-- shine / brillo -->
+  <path d="M128 42 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" stroke-width="3"/>
+  <!-- stone in the lake -->
+  <path d="M60 150 Q54 118 100 116 Q146 118 140 150"/>
+  <!-- water -->
+  <path d="M28 152 q13 -11 26 0 t26 0 t26 0 t26 0 t26 0"/>
+  <path d="M28 168 q13 -11 26 0 t26 0 t26 0 t26 0 t26 0"/>
+</svg>

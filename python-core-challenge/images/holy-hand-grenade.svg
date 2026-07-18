@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- cross finial -->
+  <path d="M100 18 V44 M88 30 H112"/>
+  <!-- collar / neck -->
+  <path d="M88 52 h24 v10 h-24 Z"/>
+  <!-- orb body -->
+  <circle cx="100" cy="118" r="46"/>
+  <!-- equator band -->
+  <path d="M56 110 q44 20 88 0"/>
+  <!-- highlight arc -->
+  <path d="M74 96 q10 -14 28 -14" stroke-width="4"/>
+  <!-- glow rays -->
+  <path d="M40 60 l-10 -8 M160 60 l10 -8 M30 118 h-12 M182 118 h-12" stroke-width="4"/>
+</svg>

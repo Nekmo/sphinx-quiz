@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-  <!-- horned helmet -->
-  <path d="M70 120 V85 a30 30 0 0 1 60 0 V120 Z"/>
-  <path d="M70 100 H130"/>
-  <path d="M90 100 V120 M110 100 V120"/>
-  <path d="M70 85 Q50 70 52 45"/>
-  <path d="M130 85 Q150 70 148 45"/>
-  <!-- speech bubble: NI! -->
-  <path d="M120 30 h55 a8 8 0 0 1 8 8 v24 a8 8 0 0 1 -8 8 h-35 l-12 12 v-12 h-8 a8 8 0 0 1 -8 -8 v-24 a8 8 0 0 1 8 -8 Z"/>
-  <path d="M135 60 V40 l14 20 V40" stroke-width="5"/>
-  <path d="M160 40 v14 M160 60 v0.5" stroke-width="5"/>
-  <!-- shrubbery -->
-  <path d="M55 175 q-10 -18 10 -20 q0 -14 18 -10 q8 -12 20 -4 q14 -6 16 8 q16 2 8 18 q6 8 -6 8 H60 q-10 0 -5 -8" stroke-width="5"/>
+  <!-- tall horned helm, lower-left -->
+  <path d="M40 150 V104 a24 24 0 0 1 48 0 V150 Z"/>
+  <path d="M40 128 H88"/>
+  <path d="M54 128 V150 M74 128 V150"/>
+  <!-- horns -->
+  <path d="M40 100 Q22 92 20 70 Q34 80 46 90"/>
+  <path d="M88 100 Q106 92 108 70 Q94 80 82 90"/>
+  <!-- speech bubble with integrated tail (no seam) pointing to the helm -->
+  <path d="M120 30 h50 a10 10 0 0 1 10 10 v26 a10 10 0 0 1 -10 10 h-38 l-22 22 12 -22 h-4 a10 10 0 0 1 -10 -10 v-26 a10 10 0 0 1 10 -10 Z"/>
+  <!-- NI! (smaller) -->
+  <path d="M126 46 V64" stroke-width="5"/>
+  <path d="M126 46 L138 64 M138 46 V64" stroke-width="5"/>
+  <path d="M150 46 V64" stroke-width="5"/>
+  <path d="M162 46 V58 M162 63 v0.5" stroke-width="5"/>
 </svg>

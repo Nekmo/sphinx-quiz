@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- left tower -->
+  <path d="M32 168 V78 h34 V168"/>
+  <!-- flags -->
+  <path d="M49 68 V44" stroke-width="4"/>
+  <path d="M49 46 l16 5 -16 5" stroke-width="4"/>
+  <!-- right tower -->
+  <path d="M134 168 V78 h34 V168"/>
+  <path d="M151 68 V44" stroke-width="4"/>
+  <path d="M151 46 l16 5 -16 5" stroke-width="4"/>
+  <!-- center wall -->
+  <path d="M66 168 V104 h68 V168"/>
+  <!-- crenellations left tower -->
+  <path d="M32 78 V70 h7 V78 M46 78 V70 h7 V78 M60 78 V70 h6"/>
+  <!-- crenellations right tower -->
+  <path d="M134 78 V70 h7 V78 M148 78 V70 h7 V78 M162 78 V70 h6"/>
+  <!-- crenellations center -->
+  <path d="M66 104 V96 h8 V104 M84 104 V96 h8 V104 M102 104 V96 h8 V104 M120 104 V96 h8"/>
+  <!-- gate -->
+  <path d="M86 168 V128 a14 14 0 0 1 28 0 V168"/>
+</svg>
